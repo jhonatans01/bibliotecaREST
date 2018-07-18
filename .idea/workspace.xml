@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="56bc8cdd-243a-4afb-a625-0f115a93512e" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.travis.yml" afterPath="$PROJECT_DIR$/.travis.yml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -47,11 +47,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GeneroTest.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="GeneroTest.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tests/Feature/GeneroTest.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="270">
               <caret line="20" column="7" lean-forward="false" selection-start-line="20" selection-start-column="7" selection-end-line="20" selection-end-column="7" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".travis.yml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.travis.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="5" column="14" lean-forward="true" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
               <folding />
             </state>
           </provider>
@@ -125,7 +135,6 @@
         <option value="$PROJECT_DIR$/app/Perfil.php" />
         <option value="$PROJECT_DIR$/app/Usuario.php" />
         <option value="$PROJECT_DIR$/database/migrations/2018_07_18_044401_create_generos_table.php" />
-        <option value="$PROJECT_DIR$/.travis.yml" />
         <option value="$PROJECT_DIR$/tests/Feature/IdiomaTest.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/GeneroController.php" />
         <option value="$PROJECT_DIR$/resources/views/genero.blade.php" />
@@ -136,6 +145,7 @@
         <option value="$PROJECT_DIR$/tests/Feature/GeneroTest.php" />
         <option value="$PROJECT_DIR$/.env.travis" />
         <option value="$PROJECT_DIR$/phpunit.xml" />
+        <option value="$PROJECT_DIR$/.travis.yml" />
       </list>
     </option>
   </component>
@@ -303,12 +313,12 @@
       <workItem from="1531863482203" duration="6931000" />
       <workItem from="1531878716804" duration="9348000" />
       <workItem from="1531888915268" duration="2382000" />
-      <workItem from="1531891406922" duration="11820000" />
+      <workItem from="1531891406922" duration="11914000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="31986000" />
+    <option name="totallyTimeSpent" value="32080000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -536,14 +546,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.travis.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="7" lean-forward="true" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/welcome.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
@@ -708,6 +710,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
           <caret line="20" column="7" lean-forward="false" selection-start-line="20" selection-start-column="7" selection-end-line="20" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.travis.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="14" lean-forward="true" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
           <folding />
         </state>
       </provider>
