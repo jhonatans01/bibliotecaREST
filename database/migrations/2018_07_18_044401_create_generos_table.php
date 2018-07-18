@@ -15,9 +15,7 @@ class CreateGenerosTable extends Migration
     {
         Schema::create('generos', function (Blueprint $table) {
             $table->increments('id');
-            $table->dateTime('dataEmprestimo');
-            $table->dateTime('dataDevolucao');
-            $table->dateTime('prazo');
+            $table->string('titulo');
         });
     }
 

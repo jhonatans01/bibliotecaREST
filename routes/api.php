@@ -17,7 +17,9 @@ Route::middleware('auth:api')->get('/user', function (Request $request) {
     return $request->user();
 });
 
-Route::get('/clear-cache', function() {
-    $exitCode = Artisan::call('cache:clear');
-    // return what you want
-});
+Route::get('/idiomas', 'IdiomaController@index');
+Route::post('/idiomas', 'IdiomaController@store');
+Route::get('/generos', 'GeneroController@index');
+Route::post('/generos', 'GeneroController@store');
+Route::put('/generos/edit/{id}', 'GeneroController@update');
+Route::delete('/generos/delete/{id}', 'GeneroController@delete');

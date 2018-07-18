@@ -9,7 +9,8 @@ class GeneroController extends Controller
 {
     public function index()
     {
-        return Genero::all();
+        $generos = Genero::all();
+        return view('genero')->with("generos", $generos);
     }
 
     public function show($id)

@@ -6,5 +6,7 @@ use Illuminate\Database\Eloquent\Model;
 
 class Genero extends Model
 {
-    protected $fillable = ['titulo'];
+    protected $fillable = ['id', 'titulo'];
+
+    public $timestamps = false;
 }

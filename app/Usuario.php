@@ -12,6 +12,8 @@ class Usuario extends Model
 
     protected $hidden = ['senha'];
 
+    public $timestamps = false;
+
     public function perfil()
     {
         return $this->hasOne('App\Perfil');

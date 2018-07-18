@@ -10,6 +10,8 @@ class Livro extends Model
 
     protected $fillable = ['cod', 'codGeral', 'titulo', 'paginas', 'edicao', 'ano'];
 
+    public $timestamps = false;
+
     public function generos()
     {
         return $this->hasMany('App\Genero');
