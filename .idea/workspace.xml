@@ -2,21 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="56bc8cdd-243a-4afb-a625-0f115a93512e" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.travis.yml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Login.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/Feature/ExampleTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/Unit/ExampleTest.php" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Autor.php" afterPath="$PROJECT_DIR$/app/Autor.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Emprestimo.php" afterPath="$PROJECT_DIR$/app/Emprestimo.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Genero.php" afterPath="$PROJECT_DIR$/app/Genero.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/GeneroController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/GeneroController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Idioma.php" afterPath="$PROJECT_DIR$/app/Idioma.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Livro.php" afterPath="$PROJECT_DIR$/app/Livro.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Perfil.php" afterPath="$PROJECT_DIR$/app/Perfil.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Usuario.php" afterPath="$PROJECT_DIR$/app/Usuario.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/database/migrations/2018_07_18_044401_create_generos_table.php" afterPath="$PROJECT_DIR$/database/migrations/2018_07_18_044401_create_generos_table.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes/api.php" afterPath="$PROJECT_DIR$/routes/api.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -79,6 +65,7 @@
       <find>envir</find>
       <find>Autor</find>
       <find>Emprestimo</find>
+      <find>unit</find>
     </findStrings>
     <replaceStrings>
       <replace>Emprestimo</replace>
@@ -98,7 +85,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/database/migrations/PerfisTable.php" />
         <option value="$PROJECT_DIR$/database/migrations/IdiomasTable.php" />
         <option value="$PROJECT_DIR$/database/migrations/GenerosTable.php" />
         <option value="$PROJECT_DIR$/database/migrations/AutoresTable.php" />
@@ -139,7 +125,6 @@
         <option value="$PROJECT_DIR$/app/Perfil.php" />
         <option value="$PROJECT_DIR$/app/Usuario.php" />
         <option value="$PROJECT_DIR$/database/migrations/2018_07_18_044401_create_generos_table.php" />
-        <option value="$PROJECT_DIR$/.env.travis" />
         <option value="$PROJECT_DIR$/.travis.yml" />
         <option value="$PROJECT_DIR$/tests/Feature/IdiomaTest.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/GeneroController.php" />
@@ -149,6 +134,8 @@
         <option value="$PROJECT_DIR$/app/Idioma.php" />
         <option value="$PROJECT_DIR$/app/Autor.php" />
         <option value="$PROJECT_DIR$/tests/Feature/GeneroTest.php" />
+        <option value="$PROJECT_DIR$/.env.travis" />
+        <option value="$PROJECT_DIR$/phpunit.xml" />
       </list>
     </option>
   </component>
@@ -316,12 +303,12 @@
       <workItem from="1531863482203" duration="6931000" />
       <workItem from="1531878716804" duration="9348000" />
       <workItem from="1531888915268" duration="2382000" />
-      <workItem from="1531891406922" duration="10782000" />
+      <workItem from="1531891406922" duration="11820000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="30948000" />
+    <option name="totallyTimeSpent" value="31986000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -367,7 +354,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/database/migrations/2018_07_18_040822_create_generos_table.php" />
     <entry file="file://$PROJECT_DIR$/database/migrations/2018_07_18_040831_create_emprestimos_table.php" />
     <entry file="file://$PROJECT_DIR$/database/migrations/2018_07_18_040600_create_autor_table.php" />
     <entry file="file://$PROJECT_DIR$/database/migrations/2018_07_18_041129_create_autores_table.php" />
@@ -436,14 +422,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/server.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/composer.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -540,14 +518,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.env.travis">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/IdiomaController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
@@ -555,14 +525,6 @@
           <folding>
             <element signature="e#40#68#0#PHP" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.env">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="59" lean-forward="false" selection-start-line="2" selection-start-column="59" selection-end-line="2" selection-end-column="59" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -578,14 +540,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
           <caret line="3" column="7" lean-forward="true" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/phpunit.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -694,6 +648,46 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/GeneroController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="118">
+          <caret line="11" column="33" lean-forward="true" selection-start-line="11" selection-start-column="33" selection-end-line="11" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/database.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="284">
+          <caret line="45" column="31" lean-forward="false" selection-start-line="45" selection-start-column="31" selection-end-line="45" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.env.travis">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="21" lean-forward="true" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/composer.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="205">
+          <caret line="17" column="33" lean-forward="true" selection-start-line="17" selection-start-column="33" selection-end-line="17" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.env">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="24" lean-forward="true" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/routes/api.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
@@ -702,10 +696,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/GeneroController.php">
+    <entry file="file://$PROJECT_DIR$/phpunit.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="118">
-          <caret line="11" column="33" lean-forward="true" selection-start-line="11" selection-start-column="33" selection-end-line="11" selection-end-column="33" />
+        <state relative-caret-position="345">
+          <caret line="23" column="13" lean-forward="true" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
           <folding />
         </state>
       </provider>
