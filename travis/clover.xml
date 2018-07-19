@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1532035768">
-  <project timestamp="1532035768">
+<coverage generated="1532036142">
+  <project timestamp="1532036142">
     <package name="App">
       <file name="/Applications/XAMPP/xamppfiles/htdocs/app/Autor.php">
         <class name="App\Autor" namespace="App">
