@@ -19,6 +19,9 @@ Route::middleware('auth:api')->get('/user', function (Request $request) {
 
 Route::get('/idiomas', 'IdiomaController@index');
 Route::post('/idiomas', 'IdiomaController@store');
+Route::put('/idiomas/edit/{id}', 'IdiomaController@update');
+Route::delete('/idiomas/delete/{id}', 'IdiomaController@delete');
+
 Route::get('/generos', 'GeneroController@index');
 Route::post('/generos', 'GeneroController@store');
 Route::put('/generos/edit/{id}', 'GeneroController@update');

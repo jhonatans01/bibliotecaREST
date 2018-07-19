@@ -16,7 +16,7 @@ class CreatePerfisTable extends Migration
         Schema::create('perfis', function (Blueprint $table) {
             $table->string('nome', 100);
             $table->string('cpf', 11);
-            $table->enum('situacao', ['ativo', 'desativado'])->default('ativo');
+            $table->enum('situacao', ['ativo', 'inativo'])->default('ativo');
             $table->string('usuario', 10);
             $table->foreign('usuario')
                 ->references('matricula')

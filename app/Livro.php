@@ -8,7 +8,7 @@ class Livro extends Model
 {
     protected $primaryKey = ['cod', 'codGeral'];
 
-    protected $fillable = ['cod', 'codGeral', 'titulo', 'paginas', 'edicao', 'ano'];
+    protected $fillable = ['cod', 'codGeral', 'titulo', 'paginas', 'edicao', 'ano', 'idioma'];
 
     public $timestamps = false;
 
