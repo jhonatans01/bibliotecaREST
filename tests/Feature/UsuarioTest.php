@@ -2,30 +2,31 @@
 
 namespace Tests\Feature;
 
-use App\Autor;
 use Tests\TestCase;
 use Illuminate\Foundation\Testing\WithFaker;
 use Illuminate\Foundation\Testing\RefreshDatabase;
+use App\Usuario;
 
-class AutorTest extends TestCase
+class UsuarioTest extends TestCase
 {
     /**
      * A basic test example.
      *
      * @return void
      */
-    public function testGet()
+    public function testGetAll()
     {
-        $response = $this->get('/api/autores');
+        $response = $this->get('/api/usuarios');
 
         $response->assertSuccessful();
     }
 
     public function testPost()
     {
+        $data = ['matricula' => '20180103', 'email' => 'u3@email.com', 'senha' => bcrypt('321')];
         $response = $this->withHeaders([
             'X-Header' => 'Value',
-        ])->json('POST', '/api/autores', ['id' => '8', 'nome' => 'Raul Wazlawick']);
+        ])->json('POST', '/api/usuarios', $data);
 
         $response
             ->assertSuccessful();
@@ -33,28 +34,29 @@ class AutorTest extends TestCase
 
     public function testGetSingle()
     {
-        $response = $this->get('/api/autores/8');
+        $response = $this->get('/api/usuarios/20180103');
 
         $response->assertSuccessful();
     }
 
     public function testPut()
     {
-        $data = Autor::where('nome', 'Raul Wazlawick')->orderBy('id', 'desc')->first();
-        $data['nome'] = 'Donald Knuth';
+        $data = Usuario::where('matricula', '20180103')->first();
+        $data['email'] = 'u4@email.com';
+        $data['senha'] = bcrypt('234');
         $response = $this->withHeaders([
             'X-Header' => 'Value',
-        ])->json('PUT', '/api/autores/edit/' . $data->id, $data->toArray());
+        ])->json('PUT', '/api/usuarios/edit/' . $data->matricula, $data->toArray());
 
         $response->assertSuccessful();
     }
 
     public function testDelete()
     {
-        $data = Autor::where('nome', 'Donald Knuth')->orderBy('id', 'desc')->first();
+        $data = Usuario::where('matricula', '20180103')->first();
         $response = $this->withHeaders([
             'X-Header' => 'Value',
-        ])->json('DELETE', '/api/autores/delete/' . $data->id, $data->toArray());
+        ])->json('DELETE', '/api/usuarios/delete/' . $data->matricula, $data->toArray());
 
         $response
             ->assertSuccessful();

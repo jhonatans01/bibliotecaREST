@@ -25,7 +25,8 @@ class CreateLivrosTable extends Migration
             $table->foreign('idioma')
                 ->references('id')
                 ->on('idiomas')
-                ->onDelete('cascade');
+                ->onDelete('cascade')
+                ->onUpdate('cascade');
             $table->softDeletes();
         });
     }

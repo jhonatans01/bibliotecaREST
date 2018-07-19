@@ -2,6 +2,7 @@
 
 namespace Tests\Feature;
 
+use App\Idioma;
 use Tests\TestCase;
 use Illuminate\Foundation\Testing\WithFaker;
 use Illuminate\Foundation\Testing\RefreshDatabase;
@@ -30,20 +31,30 @@ class IdiomaTest extends TestCase
             ->assertSuccessful();
     }
 
+    public function testGetSingle()
+    {
+        $response = $this->get('/api/idiomas/3');
+
+        $response->assertSuccessful();
+    }
+
     public function testPut()
     {
+        $data = Idioma::where('titulo', 'Espanhol')->orderBy('id', 'desc')->first();
+        $data['titulo'] = 'Alemão';
         $response = $this->withHeaders([
             'X-Header' => 'Value',
-        ])->json('PUT', '/api/idiomas/edit/3', ['id' => '3', 'titulo' => 'Francês']);
+        ])->json('PUT', '/api/idiomas/edit/' . $data->id, $data->toArray());
 
         $response->assertSuccessful();
     }
 
     public function testDelete()
     {
+        $data = Idioma::where('titulo', 'Alemão')->orderBy('id', 'desc')->first();
         $response = $this->withHeaders([
             'X-Header' => 'Value',
-        ])->json('DELETE', '/api/idiomas/delete/3', ['id' => '3', 'titulo' => 'Francês']);
+        ])->json('DELETE', '/api/idiomas/delete/' . $data->id, $data->toArray());
 
         $response
             ->assertSuccessful();

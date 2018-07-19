@@ -9,7 +9,9 @@ class Usuario extends Authenticatable
 {
     use Notifiable;
 
-    protected $primaryKey = ['matricula'];
+    protected $primaryKey = 'matricula';
+
+    public $incrementing = false;
 
     protected $fillable = ['matricula', 'email', 'senha'];
 

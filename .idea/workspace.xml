@@ -2,310 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="56bc8cdd-243a-4afb-a625-0f115a93512e" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML padrao/applications.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML padrao/bitnami.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML padrao/dashboard/404.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML padrao/dashboard/de/faq.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML padrao/dashboard/de/howto.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML padrao/dashboard/de/howto_platform_links.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML padrao/dashboard/de/howto_shared_links.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML padrao/dashboard/de/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML padrao/dashboard/docs/access-phpmyadmin-remotely.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML padrao/dashboard/docs/access-phpmyadmin-remotely.pdf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML padrao/dashboard/docs/access-phpmyadmin-remotely.pdfmarks" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML padrao/dashboard/docs/activate-use-xdebug.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML padrao/dashboard/docs/activate-use-xdebug.pdf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML padrao/dashboard/docs/activate-use-xdebug.pdfmarks" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML padrao/dashboard/docs/auto-start-xampp.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML padrao/dashboard/docs/auto-start-xampp.pdf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML padrao/dashboard/docs/auto-start-xampp.pdfmarks" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML padrao/dashboard/docs/backup-restore-mysql.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML padrao/dashboard/docs/backup-restore-mysql.pdf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML padrao/dashboard/docs/backup-restore-mysql.pdfmarks" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML padrao/dashboard/docs/change-mysql-temp-dir.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML padrao/dashboard/docs/change-mysql-temp-dir.pdf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML padrao/dashboard/docs/change-mysql-temp-dir.pdfmarks" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML padrao/dashboard/docs/configure-vhosts.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML padrao/dashboard/docs/configure-vhosts.pdf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML padrao/dashboard/docs/configure-vhosts.pdfmarks" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML padrao/dashboard/docs/configure-wildcard-subdomains.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML padrao/dashboard/docs/configure-wildcard-subdomains.pdf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML padrao/dashboard/docs/configure-wildcard-subdomains.pdfmarks" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML padrao/dashboard/docs/create-framework-project-zf1.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML padrao/dashboard/docs/create-framework-project-zf1.pdf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML padrao/dashboard/docs/create-framework-project-zf1.pdfmarks" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML padrao/dashboard/docs/create-framework-project-zf2.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML padrao/dashboard/docs/create-framework-project-zf2.pdf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML padrao/dashboard/docs/create-framework-project-zf2.pdfmarks" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML padrao/dashboard/docs/deploy-git-app.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML padrao/dashboard/docs/deploy-git-app.pdf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML padrao/dashboard/docs/deploy-git-app.pdfmarks" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML padrao/dashboard/docs/images/access-phpmyadmin-remotely/image1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML padrao/dashboard/docs/images/activate-use-xdebug/image1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML padrao/dashboard/docs/images/activate-use-xdebug/image2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML padrao/dashboard/docs/images/backup-restore-mysql/image1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML padrao/dashboard/docs/images/backup-restore-mysql/image10.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML padrao/dashboard/docs/images/backup-restore-mysql/image11.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML padrao/dashboard/docs/images/backup-restore-mysql/image12.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML padrao/dashboard/docs/images/backup-restore-mysql/image13.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML padrao/dashboard/docs/images/backup-restore-mysql/image14.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML padrao/dashboard/docs/images/backup-restore-mysql/image2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML padrao/dashboard/docs/images/backup-restore-mysql/image3.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML padrao/dashboard/docs/images/backup-restore-mysql/image4.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML padrao/dashboard/docs/images/backup-restore-mysql/image5.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML padrao/dashboard/docs/images/backup-restore-mysql/image6.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML padrao/dashboard/docs/images/backup-restore-mysql/image7.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML padrao/dashboard/docs/images/backup-restore-mysql/image8.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML padrao/dashboard/docs/images/backup-restore-mysql/image9.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML padrao/dashboard/docs/images/configure-vhosts/image1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML padrao/dashboard/docs/images/configure-vhosts/image2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML padrao/dashboard/docs/images/configure-vhosts/image3.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML padrao/dashboard/docs/images/configure-vhosts/image4.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML padrao/dashboard/docs/images/configure-vhosts/image5.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML padrao/dashboard/docs/images/configure-wildcard-subdomains/image1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML padrao/dashboard/docs/images/configure-wildcard-subdomains/image2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML padrao/dashboard/docs/images/configure-wildcard-subdomains/image3.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML padrao/dashboard/docs/images/configure-wildcard-subdomains/image4.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML padrao/dashboard/docs/images/configure-wildcard-subdomains/image5.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML padrao/dashboard/docs/images/create-framework-project-zf1/image1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML padrao/dashboard/docs/images/create-framework-project-zf1/image2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML padrao/dashboard/docs/images/create-framework-project-zf2/image1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML padrao/dashboard/docs/images/create-framework-project-zf2/image2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML padrao/dashboard/docs/images/create-framework-project-zf2/image3.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML padrao/dashboard/docs/images/create-framework-project-zf2/image4.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML padrao/dashboard/docs/images/deploy-git-app/image1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML padrao/dashboard/docs/images/deploy-git-app/image2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML padrao/dashboard/docs/images/deploy-git-app/image3.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML padrao/dashboard/docs/images/deploy-git-app/image4.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML padrao/dashboard/docs/images/deploy-git-app/image5.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML padrao/dashboard/docs/images/deploy-git-app/image6.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML padrao/dashboard/docs/images/install-wordpress/image01.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML padrao/dashboard/docs/images/install-wordpress/image02.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML padrao/dashboard/docs/images/install-wordpress/image11.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML padrao/dashboard/docs/images/install-wordpress/image110.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML padrao/dashboard/docs/images/install-wordpress/image111.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML padrao/dashboard/docs/images/install-wordpress/image112.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML padrao/dashboard/docs/images/install-wordpress/image12.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML padrao/dashboard/docs/images/install-wordpress/image13.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML padrao/dashboard/docs/images/install-wordpress/image14.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML padrao/dashboard/docs/images/install-wordpress/image15.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML padrao/dashboard/docs/images/install-wordpress/image16.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML padrao/dashboard/docs/images/install-wordpress/image17.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML padrao/dashboard/docs/images/install-wordpress/image18.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML padrao/dashboard/docs/images/install-wordpress/image19.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML padrao/dashboard/docs/images/install-wordpress/image21.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML padrao/dashboard/docs/images/install-wordpress/image22.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML padrao/dashboard/docs/images/install-wordpress/image23.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML padrao/dashboard/docs/images/install-wordpress/image24.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML padrao/dashboard/docs/images/install-wordpress/image31.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML padrao/dashboard/docs/images/install-wordpress/image32.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML padrao/dashboard/docs/images/install-wordpress/image33.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML padrao/dashboard/docs/images/install-wordpress/image34.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML padrao/dashboard/docs/images/install-wordpress/image35.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML padrao/dashboard/docs/images/install-wordpress/image36.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML padrao/dashboard/docs/images/install-wordpress/image37.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML padrao/dashboard/docs/images/install-wordpress/image38.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML padrao/dashboard/docs/images/reset-mysql-password/image1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML padrao/dashboard/docs/images/reset-mysql-password/image2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML padrao/dashboard/docs/images/send-mail/image1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML padrao/dashboard/docs/images/send-mail/image2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML padrao/dashboard/docs/images/send-mail/image3.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML padrao/dashboard/docs/images/transfer-files-ftp/image1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML padrao/dashboard/docs/images/transfer-files-ftp/image2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML padrao/dashboard/docs/images/transfer-files-ftp/image3.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML padrao/dashboard/docs/images/transfer-files-ftp/image4.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML padrao/dashboard/docs/images/transfer-files-ftp/image5.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML padrao/dashboard/docs/images/transfer-files-ftp/image6.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML padrao/dashboard/docs/images/troubleshoot-apache/image1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML padrao/dashboard/docs/images/use-sqlite/image1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML padrao/dashboard/docs/images/use-sqlite/image2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML padrao/dashboard/docs/images/use-sqlite/image3.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML padrao/dashboard/docs/increase-php-file-upload-limit.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML padrao/dashboard/docs/increase-php-file-upload-limit.pdf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML padrao/dashboard/docs/increase-php-file-upload-limit.pdfmarks" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML padrao/dashboard/docs/install-wordpress.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML padrao/dashboard/docs/install-wordpress.pdf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML padrao/dashboard/docs/install-wordpress.pdfmarks" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML padrao/dashboard/docs/reset-mysql-password.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML padrao/dashboard/docs/reset-mysql-password.pdf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML padrao/dashboard/docs/reset-mysql-password.pdfmarks" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML padrao/dashboard/docs/send-mail.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML padrao/dashboard/docs/send-mail.pdf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML padrao/dashboard/docs/send-mail.pdfmarks" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML padrao/dashboard/docs/transfer-files-ftp.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML padrao/dashboard/docs/transfer-files-ftp.pdf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML padrao/dashboard/docs/transfer-files-ftp.pdfmarks" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML padrao/dashboard/docs/troubleshoot-apache.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML padrao/dashboard/docs/troubleshoot-apache.pdf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML padrao/dashboard/docs/troubleshoot-apache.pdfmarks" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML padrao/dashboard/docs/use-sqlite.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML padrao/dashboard/docs/use-sqlite.pdf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML padrao/dashboard/docs/use-sqlite.pdfmarks" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML padrao/dashboard/es/faq.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML padrao/dashboard/es/howto.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML padrao/dashboard/es/howto_platform_links.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML padrao/dashboard/es/howto_shared_links.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML padrao/dashboard/es/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML padrao/dashboard/faq.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML padrao/dashboard/favicon.ico" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML padrao/dashboard/fr/faq.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML padrao/dashboard/fr/howto.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML padrao/dashboard/fr/howto_platform_links.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML padrao/dashboard/fr/howto_shared_links.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML padrao/dashboard/fr/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML padrao/dashboard/howto.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML padrao/dashboard/howto_platform_links.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML padrao/dashboard/howto_shared_links.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML padrao/dashboard/hu/faq.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML padrao/dashboard/hu/howto.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML padrao/dashboard/hu/howto_platform_links.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML padrao/dashboard/hu/howto_shared_links.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML padrao/dashboard/hu/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML padrao/dashboard/images/addons-video-thumb.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML padrao/dashboard/images/addons/beetailer-icon.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML padrao/dashboard/images/addons/elegantthemes-icon.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML padrao/dashboard/images/addons/rockettheme-icon.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML padrao/dashboard/images/addons/sugaroutfitters-icon.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML padrao/dashboard/images/addons/templatemonster-icon.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML padrao/dashboard/images/addons/themeforest-icon.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML padrao/dashboard/images/addons/woothemes-icon.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML padrao/dashboard/images/addons/wpmu-icon.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML padrao/dashboard/images/apple-logo.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML padrao/dashboard/images/background.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML padrao/dashboard/images/bitnami-xampp.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML padrao/dashboard/images/bitnami-xampp/image1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML padrao/dashboard/images/bitnami-xampp/image2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML padrao/dashboard/images/bitnami-xampp/image3.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML padrao/dashboard/images/bitnami-xampp/image4.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML padrao/dashboard/images/bitnami-xampp/image5.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML padrao/dashboard/images/bitnami-xampp/image6.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML padrao/dashboard/images/bitnami-xampp/image7.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML padrao/dashboard/images/blog/heartbleed-affected-osx.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML padrao/dashboard/images/blog/heartbleed-affected.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML padrao/dashboard/images/blog/heartbleed-fixed.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML padrao/dashboard/images/blog/phpinfo-section-1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML padrao/dashboard/images/blog/phpinfo-section-2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML padrao/dashboard/images/fastly-logo.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML padrao/dashboard/images/fastly-logo@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML padrao/dashboard/images/favicon.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML padrao/dashboard/images/flags/cn.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML padrao/dashboard/images/flags/de.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML padrao/dashboard/images/flags/en.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML padrao/dashboard/images/flags/es.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML padrao/dashboard/images/flags/fr.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML padrao/dashboard/images/flags/hu.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML padrao/dashboard/images/flags/it.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML padrao/dashboard/images/flags/jp.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML padrao/dashboard/images/flags/pl.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML padrao/dashboard/images/flags/pt.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML padrao/dashboard/images/flags/pt_br.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML padrao/dashboard/images/flags/ro.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML padrao/dashboard/images/flags/ru.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML padrao/dashboard/images/flags/tr.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML padrao/dashboard/images/flags/ur.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML padrao/dashboard/images/flags/zh_cn.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML padrao/dashboard/images/flags/zh_tw.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML padrao/dashboard/images/linux-logo.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML padrao/dashboard/images/middleman.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML padrao/dashboard/images/pdf-icon.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML padrao/dashboard/images/screenshots/xampp-linux-start.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML padrao/dashboard/images/screenshots/xampp-macosx-launch-credentials.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML padrao/dashboard/images/screenshots/xampp-macosx-stack-manager-general.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML padrao/dashboard/images/screenshots/xampp-macosx-stack-manager-network.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML padrao/dashboard/images/screenshots/xampp-macosx-stack-manager-services.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML padrao/dashboard/images/screenshots/xampp-macosx-stack-manager-volumes.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML padrao/dashboard/images/screenshots/xampp-macosx-stack-manager.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML padrao/dashboard/images/screenshots/xampp-macosx-start.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML padrao/dashboard/images/screenshots/xampp-windows-start.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML padrao/dashboard/images/social-icons-large.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML padrao/dashboard/images/social-icons-large@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML padrao/dashboard/images/social-icons.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML padrao/dashboard/images/social-icons@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML padrao/dashboard/images/sourceforge-logo.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML padrao/dashboard/images/sourceforge-logo@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML padrao/dashboard/images/stack-icons.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML padrao/dashboard/images/stack-icons@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML padrao/dashboard/images/stamps/stamp-173x38.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML padrao/dashboard/images/stamps/stamp-80x15.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML padrao/dashboard/images/stamps/stamp-88x31.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML padrao/dashboard/images/team/beltran-rueda.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML padrao/dashboard/images/team/daniel-lopez.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML padrao/dashboard/images/team/kai-seidler.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML padrao/dashboard/images/team/kay-vogelgesang.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML padrao/dashboard/images/team/paul-hinz.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML padrao/dashboard/images/twitter-bird.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML padrao/dashboard/images/windows-logo.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML padrao/dashboard/images/xampp-cloud.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML padrao/dashboard/images/xampp-cloud@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML padrao/dashboard/images/xampp-logo.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML padrao/dashboard/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML padrao/dashboard/it/faq.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML padrao/dashboard/it/howto.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML padrao/dashboard/it/howto_platform_links.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML padrao/dashboard/it/howto_shared_links.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML padrao/dashboard/it/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML padrao/dashboard/javascripts/all.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML padrao/dashboard/javascripts/modernizr.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML padrao/dashboard/jp/faq.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML padrao/dashboard/jp/howto.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML padrao/dashboard/jp/howto_platform_links.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML padrao/dashboard/jp/howto_shared_links.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML padrao/dashboard/jp/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML padrao/dashboard/phpinfo.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML padrao/dashboard/pl/faq.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML padrao/dashboard/pl/howto.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML padrao/dashboard/pl/howto_platform_links.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML padrao/dashboard/pl/howto_shared_links.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML padrao/dashboard/pl/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML padrao/dashboard/pt_br/faq.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML padrao/dashboard/pt_br/howto.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML padrao/dashboard/pt_br/howto_platform_links.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML padrao/dashboard/pt_br/howto_shared_links.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML padrao/dashboard/pt_br/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML padrao/dashboard/ro/faq.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML padrao/dashboard/ro/howto.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML padrao/dashboard/ro/howto_platform_links.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML padrao/dashboard/ro/howto_shared_links.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML padrao/dashboard/ro/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML padrao/dashboard/ru/faq.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML padrao/dashboard/ru/howto.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML padrao/dashboard/ru/howto_platform_links.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML padrao/dashboard/ru/howto_shared_links.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML padrao/dashboard/ru/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML padrao/dashboard/stylesheets/all-rtl.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML padrao/dashboard/stylesheets/all.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML padrao/dashboard/stylesheets/asciidoctor.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML padrao/dashboard/stylesheets/normalize.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML padrao/dashboard/tr/faq.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML padrao/dashboard/tr/howto.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML padrao/dashboard/tr/howto_platform_links.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML padrao/dashboard/tr/howto_shared_links.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML padrao/dashboard/tr/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML padrao/dashboard/ur/faq.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML padrao/dashboard/ur/howto.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML padrao/dashboard/ur/howto_platform_links.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML padrao/dashboard/ur/howto_shared_links.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML padrao/dashboard/ur/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML padrao/dashboard/zh_cn/faq.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML padrao/dashboard/zh_cn/howto.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML padrao/dashboard/zh_cn/howto_platform_links.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML padrao/dashboard/zh_cn/howto_shared_links.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML padrao/dashboard/zh_cn/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML padrao/dashboard/zh_tw/faq.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML padrao/dashboard/zh_tw/howto.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML padrao/dashboard/zh_tw/howto_platform_links.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML padrao/dashboard/zh_tw/howto_shared_links.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML padrao/dashboard/zh_tw/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML padrao/favicon.ico" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML padrao/img/module_table_bottom.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML padrao/img/module_table_top.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML padrao/index.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/logs/clover.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/Coverage.php" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.travis.yml" afterPath="$PROJECT_DIR$/.travis.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/database/.gitignore" afterPath="$PROJECT_DIR$/database/.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/phpunit.xml" afterPath="$PROJECT_DIR$/phpunit.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Autor.php" afterPath="$PROJECT_DIR$/app/Autor.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Emprestimo.php" afterPath="$PROJECT_DIR$/app/Emprestimo.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Genero.php" afterPath="$PROJECT_DIR$/app/Genero.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Idioma.php" afterPath="$PROJECT_DIR$/app/Idioma.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Livro.php" afterPath="$PROJECT_DIR$/app/Livro.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Perfil.php" afterPath="$PROJECT_DIR$/app/Perfil.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Usuario.php" afterPath="$PROJECT_DIR$/app/Usuario.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/database/migrations/2018_07_18_044349_create_perfis_table.php" afterPath="$PROJECT_DIR$/database/migrations/2018_07_18_044349_create_perfis_table.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/database/migrations/2018_07_19_021511_create_livros_table.php" afterPath="$PROJECT_DIR$/database/migrations/2018_07_19_021511_create_livros_table.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/database/migrations/2018_07_19_021602_create_generos_livros_table.php" afterPath="$PROJECT_DIR$/database/migrations/2018_07_19_021602_create_generos_livros_table.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/database/migrations/2018_07_19_021614_create_autores_livros_table.php" afterPath="$PROJECT_DIR$/database/migrations/2018_07_19_021614_create_autores_livros_table.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/database/migrations/2018_07_19_021640_create_emprestimos_table.php" afterPath="$PROJECT_DIR$/database/migrations/2018_07_19_021640_create_emprestimos_table.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes/api.php" afterPath="$PROJECT_DIR$/routes/api.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/Feature/AutorTest.php" afterPath="$PROJECT_DIR$/tests/Feature/AutorTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/Feature/GeneroTest.php" afterPath="$PROJECT_DIR$/tests/Feature/GeneroTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/Feature/IdiomaTest.php" afterPath="$PROJECT_DIR$/tests/Feature/IdiomaTest.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -330,21 +44,33 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="UsuarioTest.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/tests/Feature/UsuarioTest.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="245">
+              <caret line="39" column="5" lean-forward="true" selection-start-line="39" selection-start-column="5" selection-end-line="39" selection-end-column="5" />
+              <folding>
+                <element signature="e#33#52#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="api.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/routes/api.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="19" column="48" lean-forward="false" selection-start-line="19" selection-start-column="48" selection-end-line="19" selection-end-column="48" />
+            <state relative-caret-position="720">
+              <caret line="48" column="0" lean-forward="true" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="coverage-checker.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/travis/coverage-checker.php">
+      <file leaf-file-name="2018_07_18_044349_create_perfis_table.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/database/migrations/2018_07_18_044349_create_perfis_table.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+            <state relative-caret-position="204">
+              <caret line="19" column="34" lean-forward="false" selection-start-line="19" selection-start-column="34" selection-end-line="19" selection-end-column="34" />
               <folding />
             </state>
           </provider>
@@ -365,6 +91,7 @@
       <find>7.2</find>
       <find>autoload</find>
       <find>test</find>
+      <find>print</find>
     </findStrings>
     <replaceStrings>
       <replace>Emprestimo</replace>
@@ -381,57 +108,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/database/migrations/2018_07_18_040814_create_idiomas_table.php" />
-        <option value="$PROJECT_DIR$/database/migrations/2018_07_18_040822_create_generos_table.php" />
-        <option value="$PROJECT_DIR$/database/migrations/2018_07_18_040831_create_emprestimos_table.php" />
-        <option value="$PROJECT_DIR$/database/migrations/2018_07_18_041314_create_usuarios_table.php" />
-        <option value="$PROJECT_DIR$/database/migrations/2018_07_18_041520_create_perfis_table.php" />
-        <option value="$PROJECT_DIR$/.env" />
-        <option value="$PROJECT_DIR$/database/migrations/2018_07_18_044353_create_autores_table.php" />
         <option value="$PROJECT_DIR$/database/migrations/2018_07_18_044358_create_idiomas_table.php" />
-        <option value="$PROJECT_DIR$/app/Emprestimo.php" />
-        <option value="$PROJECT_DIR$/app/Perfil.php" />
         <option value="$PROJECT_DIR$/database/migrations/2018_07_18_044401_create_generos_table.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/GeneroController.php" />
         <option value="$PROJECT_DIR$/resources/views/genero.blade.php" />
-        <option value="$PROJECT_DIR$/app/Genero.php" />
-        <option value="$PROJECT_DIR$/app/Idioma.php" />
-        <option value="$PROJECT_DIR$/app/Autor.php" />
-        <option value="$PROJECT_DIR$/tests/Feature/GeneroTest.php" />
         <option value="$PROJECT_DIR$/config/database.php" />
         <option value="$PROJECT_DIR$/.env.travis" />
         <option value="$PROJECT_DIR$/coverage-checker.php" />
         <option value="$PROJECT_DIR$/composer.json" />
         <option value="$PROJECT_DIR$/tests/Coverage.php" />
-        <option value="$PROJECT_DIR$/tests/Feature/IdiomaTest.php" />
-        <option value="$PROJECT_DIR$/routes/api.php" />
-        <option value="$PROJECT_DIR$/app/Usuario.php" />
         <option value="$PROJECT_DIR$/database/migrations/2018_07_18_043502_create_usuarios_table.php" />
-        <option value="$PROJECT_DIR$/database/seeds/IdiomasTableSeeder.php" />
-        <option value="$PROJECT_DIR$/database/seeds/GenerosTableSeeder.php" />
         <option value="$PROJECT_DIR$/database/seeds/UsuariosTableSeeder.php" />
         <option value="$PROJECT_DIR$/database/migrations/2018_07_18_044405_create_emprestimos_table.php" />
         <option value="$PROJECT_DIR$/database/migrations/2018_07_19_005446_create_autores_livro_table.php" />
         <option value="$PROJECT_DIR$/database/migrations/2018_07_19_005609_create_generos_livro_table.php" />
         <option value="$PROJECT_DIR$/database/seeds/PerfisTableSeeder.php" />
         <option value="$PROJECT_DIR$/database/seeds/AutoresTableSeeder.php" />
-        <option value="$PROJECT_DIR$/database/migrations/2018_07_18_044349_create_perfis_table.php" />
-        <option value="$PROJECT_DIR$/app/Livro.php" />
         <option value="$PROJECT_DIR$/database/migrations/2018_07_18_044356_create_livros_table.php" />
-        <option value="$PROJECT_DIR$/database/migrations/2018_07_19_021614_create_autores_livros_table.php" />
         <option value="$PROJECT_DIR$/database/seeds/EmprestimosTableSeeder.php" />
-        <option value="$PROJECT_DIR$/database/migrations/2018_07_19_021640_create_emprestimos_table.php" />
         <option value="$PROJECT_DIR$/database/migrations/2018_07_19_023451_create_triggers.php" />
-        <option value="$PROJECT_DIR$/database/migrations/2018_07_19_021602_create_generos_livros_table.php" />
         <option value="$PROJECT_DIR$/database/seeds/LivrosTableSeeder.php" />
         <option value="$PROJECT_DIR$/database/seeds/GenerosLivrosTableSeeder.php" />
         <option value="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" />
-        <option value="$PROJECT_DIR$/database/migrations/2018_07_19_021511_create_livros_table.php" />
         <option value="$PROJECT_DIR$/database/seeds/AutoresLivrosTableSeeder.php" />
         <option value="$PROJECT_DIR$/travis/coverageChecker.php" />
         <option value="$PROJECT_DIR$/phpunit.xml" />
-        <option value="$PROJECT_DIR$/.travis.yml" />
         <option value="$PROJECT_DIR$/database/.gitignore" />
+        <option value="$PROJECT_DIR$/app/Emprestimo.php" />
+        <option value="$PROJECT_DIR$/database/migrations/2018_07_18_044349_create_perfis_table.php" />
+        <option value="$PROJECT_DIR$/database/migrations/2018_07_19_021511_create_livros_table.php" />
+        <option value="$PROJECT_DIR$/database/migrations/2018_07_19_021602_create_generos_livros_table.php" />
+        <option value="$PROJECT_DIR$/database/migrations/2018_07_19_021614_create_autores_livros_table.php" />
+        <option value="$PROJECT_DIR$/database/migrations/2018_07_19_021640_create_emprestimos_table.php" />
+        <option value="$PROJECT_DIR$/tests/Feature/GeneroTest.php" />
+        <option value="$PROJECT_DIR$/database/seeds/IdiomasTableSeeder.php" />
+        <option value="$PROJECT_DIR$/database/seeds/GenerosTableSeeder.php" />
+        <option value="$PROJECT_DIR$/tests/Feature/IdiomaTest.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/AutorController.php" />
+        <option value="$PROJECT_DIR$/tests/Feature/AutorTest.php" />
+        <option value="$PROJECT_DIR$/tests/Feature/EmprestimoTest.php" />
+        <option value="$PROJECT_DIR$/.travis.yml" />
+        <option value="$PROJECT_DIR$/tests/Feature/PerfilTest.php" />
+        <option value="$PROJECT_DIR$/app/Autor.php" />
+        <option value="$PROJECT_DIR$/app/Genero.php" />
+        <option value="$PROJECT_DIR$/app/Idioma.php" />
+        <option value="$PROJECT_DIR$/app/Livro.php" />
+        <option value="$PROJECT_DIR$/app/Usuario.php" />
+        <option value="$PROJECT_DIR$/app/Perfil.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/UsuarioController.php" />
+        <option value="$PROJECT_DIR$/tests/Feature/UsuarioTest.php" />
+        <option value="$PROJECT_DIR$/tests/Feature/LivroTest.php" />
+        <option value="$PROJECT_DIR$/routes/api.php" />
       </list>
     </option>
   </component>
@@ -463,27 +190,13 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="htdocs" type="b2602c69:ProjectViewProjectNode" />
               <item name="htdocs" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="htdocs" type="b2602c69:ProjectViewProjectNode" />
-              <item name="htdocs" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="htdocs" type="b2602c69:ProjectViewProjectNode" />
-              <item name="htdocs" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="database" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="htdocs" type="b2602c69:ProjectViewProjectNode" />
-              <item name="htdocs" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="resources" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="htdocs" type="b2602c69:ProjectViewProjectNode" />
@@ -495,22 +208,10 @@
               <item name="htdocs" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="tests" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
-            <path>
-              <item name="htdocs" type="b2602c69:ProjectViewProjectNode" />
-              <item name="htdocs" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="tests" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Feature" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="htdocs" type="b2602c69:ProjectViewProjectNode" />
-              <item name="htdocs" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="travis" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -518,7 +219,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="php.override.implement.member.chooser.php.doc" value="NONE" />
-    <property name="SearchEverywhereHistoryKey" value="gitig&#9;FILE&#9;file:///Applications/XAMPP/htdocs/database/.gitignore&#10;clover.x&#9;FILE&#9;file:///Applications/XAMPP/htdocs/build/logs/clover.xml&#10;emprestimo&#9;FILE&#9;file:///Applications/XAMPP/htdocs/database/migrations/2018_07_18_044405_create_emprestimos_table.php&#10;usuario&#9;FILE&#9;file:///Applications/XAMPP/htdocs/database/migrations/2018_07_18_043502_create_usuarios_table.php&#10;phpunit.xml.dist&#9;FILE&#9;file:///Applications/XAMPP/htdocs/vendor/php-coveralls/php-coveralls/phpunit.xml.dist&#10;codecoverage.php&#9;FILE&#9;file:///Applications/XAMPP/htdocs/vendor/phpunit/php-code-coverage/src/CodeCoverage.php&#10;read&#9;FILE&#9;file:///Applications/XAMPP/htdocs/readme.md&#10;generocon&#9;FILE&#9;file:///Applications/XAMPP/htdocs/app/Http/Controllers/GeneroController.php&#10;idiomac&#9;FILE&#9;file:///Applications/XAMPP/htdocs/app/Http/Controllers/IdiomaController.php&#10;phpunit&#9;FILE&#9;file:///Applications/XAMPP/htdocs/phpunit.xml&#10;idiomacont&#9;FILE&#9;file:///Applications/XAMPP/htdocs/app/Http/Controllers/IdiomaController.php&#10;logincont&#9;null&#9;null&#10;companie&#9;null&#9;null&#10;env&#9;FILE&#9;file:///Applications/XAMPP/htdocs/vendor/filp/whoops/src/Whoops/Resources/views/env_details.html.php&#10;default.p&#9;FILE&#9;file:///Applications/XAMPP/htdocs/templates/default.php" />
+    <property name="SearchEverywhereHistoryKey" value="livrot&#9;FILE&#9;file:///Applications/XAMPP/htdocs/tests/Feature/LivroTest.php&#10;perfilc&#9;FILE&#9;file:///Applications/XAMPP/htdocs/app/Http/Controllers/PerfilController.php&#10;perfil&#9;FILE&#9;file:///Applications/XAMPP/htdocs/app/Perfil.php&#10;usuarioc&#9;FILE&#9;file:///Applications/XAMPP/htdocs/app/Http/Controllers/UsuarioController.php&#10;livr&#9;FILE&#9;file:///Applications/XAMPP/htdocs/app/Livro.php&#10;usua&#9;FILE&#9;file:///Applications/XAMPP/htdocs/app/Usuario.php&#10;livros&#9;FILE&#9;file:///Applications/XAMPP/htdocs/database/migrations/2018_07_19_021511_create_livros_table.php&#10;livro_&#9;FILE&#9;file:///Applications/XAMPP/htdocs/database/migrations/2018_07_19_021614_create_autores_livros_table.php&#10;autores_livros&#9;FILE&#9;file:///Applications/XAMPP/htdocs/database/migrations/2018_07_19_021614_create_autores_livros_table.php&#10;livro&#9;FILE&#9;file:///Applications/XAMPP/htdocs/app/Livro.php&#10;Livro&#9;FILE&#9;file:///Applications/XAMPP/htdocs/app/Livro.php&#10;perfis_&#9;FILE&#9;file:///Applications/XAMPP/htdocs/database/migrations/2018_07_18_044349_create_perfis_table.php&#10;ap&#9;FILE&#9;file:///Applications/XAMPP/htdocs/routes/api.php&#10;api.&#9;FILE&#9;file:///Applications/XAMPP/htdocs/routes/api.php&#10;perfilC&#9;null&#9;null&#10;livroC&#9;FILE&#9;file:///Applications/XAMPP/htdocs/app/Http/Controllers/LivroController.php&#10;autorc&#9;null&#9;null&#10;usuario&#9;null&#9;null&#10;emprestimo&#9;FILE&#9;file:///Applications/XAMPP/htdocs/app/Http/Controllers/EmprestimoController.php&#10;generoc&#9;null&#9;null&#10;empres&#9;FILE&#9;file:///Applications/XAMPP/htdocs/app/Emprestimo.php&#10;emprestimoCon&#9;null&#9;null&#10;livrocon&#9;null&#9;null&#10;gitig&#9;FILE&#9;file:///Applications/XAMPP/htdocs/database/.gitignore&#10;clover.x&#9;FILE&#9;file:///Applications/XAMPP/htdocs/build/logs/clover.xml&#10;phpunit.xml.dist&#9;FILE&#9;file:///Applications/XAMPP/htdocs/vendor/php-coveralls/php-coveralls/phpunit.xml.dist&#10;codecoverage.php&#9;FILE&#9;file:///Applications/XAMPP/htdocs/vendor/phpunit/php-code-coverage/src/CodeCoverage.php&#10;read&#9;FILE&#9;file:///Applications/XAMPP/htdocs/readme.md&#10;generocon&#9;FILE&#9;file:///Applications/XAMPP/htdocs/app/Http/Controllers/GeneroController.php&#10;idiomac&#9;FILE&#9;file:///Applications/XAMPP/htdocs/app/Http/Controllers/IdiomaController.php&#10;phpunit&#9;FILE&#9;file:///Applications/XAMPP/htdocs/phpunit.xml&#10;idiomacont&#9;FILE&#9;file:///Applications/XAMPP/htdocs/app/Http/Controllers/IdiomaController.php&#10;logincont&#9;null&#9;null&#10;companie&#9;null&#9;null&#10;env&#9;FILE&#9;file:///Applications/XAMPP/htdocs/vendor/filp/whoops/src/Whoops/Resources/views/env_details.html.php&#10;default.p&#9;FILE&#9;file:///Applications/XAMPP/htdocs/templates/default.php" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -594,12 +295,13 @@
       <workItem from="1531878716804" duration="9348000" />
       <workItem from="1531888915268" duration="2382000" />
       <workItem from="1531891406922" duration="19682000" />
-      <workItem from="1531951249782" duration="12474000" />
+      <workItem from="1531951249782" duration="16360000" />
+      <workItem from="1532009572185" duration="21234000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="52322000" />
+    <option name="totallyTimeSpent" value="77442000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -614,23 +316,23 @@
     <frame x="0" y="40" width="1272" height="714" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24552846" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2495935" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32810047" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32967034" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980457" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3279483" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32967034" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32956383" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.37575758" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.37575758" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="REST Client" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.38147566" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3279483" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -645,281 +347,10 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/vendor/symfony/config/phpunit.xml.dist">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/symfony/stopwatch/phpunit.xml.dist">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/bin/phpcov">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="31" column="0" lean-forward="true" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/bin/php-coveralls">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="0" lean-forward="true" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Autor.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="33" lean-forward="false" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/GeneroController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="118">
-          <caret line="11" column="33" lean-forward="false" selection-start-line="11" selection-start-column="33" selection-end-line="11" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/composer.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="431">
-          <caret line="31" column="18" lean-forward="false" selection-start-line="31" selection-start-column="18" selection-end-line="31" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/Feature/IdiomaTest.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="262">
-          <caret line="32" column="29" lean-forward="true" selection-start-line="32" selection-start-column="29" selection-end-line="32" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/php-coveralls/php-coveralls/phpunit.xml.dist">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="470">
-          <caret line="47" column="14" lean-forward="false" selection-start-line="47" selection-start-column="14" selection-end-line="47" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/phpunit/php-code-coverage/src/CodeCoverage.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="74">
-          <caret line="888" column="14" lean-forward="false" selection-start-line="888" selection-start-column="14" selection-end-line="888" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/routes/api.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="48" lean-forward="false" selection-start-line="19" selection-start-column="48" selection-end-line="19" selection-end-column="48" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Notifications/Notifiable.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="6" lean-forward="false" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/composer/autoload_static.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="405" column="23" lean-forward="false" selection-start-line="405" selection-start-column="23" selection-end-line="405" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/User.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/database/migrations/2018_07_18_043502_create_usuarios_table.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="18" column="35" lean-forward="true" selection-start-line="18" selection-start-column="35" selection-end-line="18" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/Feature/GeneroTest.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
-          <caret line="42" column="5" lean-forward="true" selection-start-line="42" selection-start-column="5" selection-end-line="42" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Usuario.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="6" lean-forward="false" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
-          <folding>
-            <element signature="e#23#63#0#PHP" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/database/seeds/IdiomasTableSeeder.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-          <folding>
-            <element signature="e#7#38#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/database/seeds/GenerosTableSeeder.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-          <folding>
-            <element signature="e#7#38#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/database/migrations/2018_07_18_044401_create_generos_table.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="17" column="12" lean-forward="false" selection-start-line="17" selection-start-column="12" selection-end-line="17" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/database/migrations/2018_07_18_044405_create_emprestimos_table.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="18" column="37" lean-forward="true" selection-start-line="18" selection-start-column="37" selection-end-line="18" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/database/migrations/2018_07_19_005609_create_generos_livro_table.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="16" column="40" lean-forward="true" selection-start-line="16" selection-start-column="40" selection-end-line="16" selection-end-column="40" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/database/migrations/2018_07_19_005446_create_autores_livro_table.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="24" column="39" lean-forward="false" selection-start-line="24" selection-start-column="39" selection-end-line="24" selection-end-column="39" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/database/seeds/UsuariosTableSeeder.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="15" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-          <folding>
-            <element signature="e#7#38#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/database/migrations/2018_07_18_044358_create_idiomas_table.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="16" column="37" lean-forward="true" selection-start-line="16" selection-start-column="37" selection-end-line="16" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Livro.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="91" lean-forward="false" selection-start-line="10" selection-start-column="91" selection-end-line="10" selection-end-column="91" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/database/migrations/2018_07_18_044356_create_livros_table.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="25" column="32" lean-forward="false" selection-start-line="25" selection-start-column="32" selection-end-line="25" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Downloads/2018_07_19_005609_create_generos_livro_table.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Downloads/2018_07_18_044356_create_livros_table.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="12" column="7" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Downloads/2018_07_19_005446_create_autores_livro_table.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="12" column="7" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Downloads/2018_07_18_044405_create_emprestimos_table.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/database/migrations/2018_07_18_044349_create_perfis_table.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="23" column="38" lean-forward="true" selection-start-line="23" selection-start-column="38" selection-end-line="23" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/database/migrations/2018_07_19_023451_create_triggers.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="450">
           <caret line="32" column="11" lean-forward="false" selection-start-line="32" selection-start-column="11" selection-end-line="32" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/database/migrations/2018_07_19_021602_create_generos_livros_table.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="15" column="38" lean-forward="false" selection-start-line="15" selection-start-column="38" selection-end-line="15" selection-end-column="38" />
           <folding />
         </state>
       </provider>
@@ -929,7 +360,7 @@
         <state relative-caret-position="30">
           <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="3" selection-end-column="34" />
           <folding>
-            <element signature="e#7#38#0#PHP" expanded="true" />
+            <element signature="e#7#38#0#PHP" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -939,16 +370,8 @@
         <state relative-caret-position="270">
           <caret line="18" column="50" lean-forward="true" selection-start-line="18" selection-start-column="50" selection-end-line="18" selection-end-column="50" />
           <folding>
-            <element signature="e#7#38#0#PHP" expanded="true" />
+            <element signature="e#7#38#0#PHP" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/database/migrations/2018_07_19_021614_create_autores_livros_table.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="15" column="5" lean-forward="true" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -957,7 +380,7 @@
         <state relative-caret-position="195">
           <caret line="13" column="5" lean-forward="true" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
           <folding>
-            <element signature="e#7#38#0#PHP" expanded="true" />
+            <element signature="e#7#38#0#PHP" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -967,27 +390,7 @@
         <state relative-caret-position="60">
           <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
           <folding>
-            <element signature="e#7#38#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/database/seeds/LivrosTableSeeder.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="29" column="86" lean-forward="true" selection-start-line="29" selection-start-column="86" selection-end-line="29" selection-end-column="86" />
-          <folding>
-            <element signature="e#7#38#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/database/migrations/2018_07_19_021640_create_emprestimos_table.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="317">
-          <caret line="24" column="38" lean-forward="true" selection-start-line="24" selection-start-column="38" selection-end-line="24" selection-end-column="38" />
-          <folding>
-            <element signature="e#7#45#0#PHP" expanded="true" />
+            <element signature="e#7#38#0#PHP" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1000,20 +403,160 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/database/migrations/2018_07_19_021511_create_livros_table.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="27" column="38" lean-forward="false" selection-start-line="27" selection-start-column="38" selection-end-line="27" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/database/seeds/AutoresLivrosTableSeeder.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="390">
           <caret line="26" column="10" lean-forward="true" selection-start-line="26" selection-start-column="10" selection-end-line="26" selection-end-column="10" />
           <folding>
-            <element signature="e#7#38#0#PHP" expanded="true" />
+            <element signature="e#7#38#0#PHP" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/phpunit.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="20" lean-forward="true" selection-start-line="22" selection-start-column="20" selection-end-line="22" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build/logs/clover.xml" />
+    <entry file="file://$PROJECT_DIR$/tests/Coverage.php" />
+    <entry file="file://$PROJECT_DIR$/database/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="8" lean-forward="false" selection-start-line="0" selection-start-column="8" selection-end-line="0" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/travis/coverage-checker.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="34" lean-forward="false" selection-start-line="21" selection-start-column="34" selection-end-line="21" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/CreatesApplication.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/GeneroController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="10" column="5" lean-forward="true" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/EmprestimoController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="21" column="23" lean-forward="false" selection-start-line="21" selection-start-column="23" selection-end-line="21" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2018_07_18_043502_create_usuarios_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="16" column="28" lean-forward="true" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2018_07_18_044353_create_autores_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="17" column="33" lean-forward="false" selection-start-line="17" selection-start-column="33" selection-end-line="17" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2018_07_18_044358_create_idiomas_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="18" column="11" lean-forward="true" selection-start-line="18" selection-start-column="11" selection-end-line="18" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2018_07_18_044401_create_generos_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="21" column="7" lean-forward="true" selection-start-line="21" selection-start-column="7" selection-end-line="21" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2018_07_19_021640_create_emprestimos_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="422">
+          <caret line="31" column="37" lean-forward="false" selection-start-line="31" selection-start-column="37" selection-end-line="31" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/seeds/UsuariosTableSeeder.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="15" column="15" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/seeds/IdiomasTableSeeder.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="19" column="47" lean-forward="false" selection-start-line="19" selection-start-column="47" selection-end-line="19" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/seeds/GenerosTableSeeder.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="19" column="51" lean-forward="false" selection-start-line="19" selection-start-column="51" selection-end-line="19" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/LivroController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="16" column="20" lean-forward="true" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/AutorController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="9" column="27" lean-forward="true" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/Feature/IdiomaTest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="259">
+          <caret line="41" column="5" lean-forward="true" selection-start-line="41" selection-start-column="5" selection-end-line="41" selection-end-column="5" />
+          <folding>
+            <element signature="e#33#48#0#PHP" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/Feature/GeneroTest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="167">
+          <caret line="41" column="5" lean-forward="true" selection-start-line="41" selection-start-column="5" selection-end-line="41" selection-end-column="5" />
+          <folding>
+            <element signature="e#33#48#0#PHP" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1026,34 +569,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/phpunit.xml">
+    <entry file="file://$PROJECT_DIR$/database/migrations/2018_07_18_044349_create_perfis_table.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="20" lean-forward="true" selection-start-line="22" selection-start-column="20" selection-end-line="22" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build/logs/clover.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="28" lean-forward="true" selection-start-line="4" selection-start-column="28" selection-end-line="4" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/Coverage.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="6" lean-forward="false" selection-start-line="17" selection-start-column="6" selection-end-line="17" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/database/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="8" lean-forward="false" selection-start-line="0" selection-start-column="8" selection-end-line="0" selection-end-column="8" />
+        <state relative-caret-position="204">
+          <caret line="19" column="34" lean-forward="false" selection-start-line="19" selection-start-column="34" selection-end-line="19" selection-end-column="34" />
           <folding />
         </state>
       </provider>
@@ -1066,11 +585,179 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/travis/coverage-checker.php">
+    <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+        <state relative-caret-position="169">
+          <caret line="591" column="20" lean-forward="false" selection-start-line="591" selection-start-column="20" selection-end-line="591" selection-end-column="20" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Relations/HasOneOrMany.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="258">
+          <caret line="249" column="24" lean-forward="false" selection-start-line="249" selection-start-column="24" selection-end-line="249" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2018_07_19_021614_create_autores_livros_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="30" column="5" lean-forward="true" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2018_07_19_021511_create_livros_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="219">
+          <caret line="18" column="28" lean-forward="true" selection-start-line="18" selection-start-column="28" selection-end-line="18" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2018_07_19_021602_create_generos_livros_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="17" column="53" lean-forward="false" selection-start-line="17" selection-start-column="53" selection-end-line="17" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Autor.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="1" lean-forward="true" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Emprestimo.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="25" lean-forward="true" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Genero.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="1" lean-forward="true" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Idioma.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/seeds/LivrosTableSeeder.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="24" column="42" lean-forward="false" selection-start-line="24" selection-start-column="42" selection-end-line="24" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/Feature/PerfilTest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="19" column="1" lean-forward="true" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/Feature/AutorTest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="467">
+          <caret line="37" column="30" lean-forward="true" selection-start-line="37" selection-start-column="30" selection-end-line="37" selection-end-column="30" />
+          <folding>
+            <element signature="e#33#47#0#PHP" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/Feature/EmprestimoTest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="12" lean-forward="false" selection-start-line="23" selection-start-column="12" selection-end-line="23" selection-end-column="12" />
+          <folding>
+            <element signature="e#33#52#0#PHP" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Livro.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="4" lean-forward="false" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Usuario.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="13" column="33" lean-forward="true" selection-start-line="13" selection-start-column="33" selection-end-line="13" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Perfil.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/PerfilController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="8" column="1" lean-forward="true" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/Feature/LivroTest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="48" column="8" lean-forward="false" selection-start-line="48" selection-start-column="8" selection-end-line="48" selection-end-column="8" />
+          <folding>
+            <element signature="e#33#48#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/UsuarioController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="16" column="29" lean-forward="false" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/api.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="720">
+          <caret line="48" column="0" lean-forward="true" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/Feature/UsuarioTest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="245">
+          <caret line="39" column="5" lean-forward="true" selection-start-line="39" selection-start-column="5" selection-end-line="39" selection-end-column="5" />
+          <folding>
+            <element signature="e#33#52#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

@@ -16,11 +16,15 @@ class CreateAutoresLivrosTable extends Migration
         Schema::create('autores_livros', function (Blueprint $table) {
             $table->string('livro', 15);
             $table->foreign('livro')->references('cod')
-                ->on('livros')->onDelete('cascade');
+                ->on('livros')
+                ->onDelete('cascade')
+                ->onUpdate('cascade');;
 
             $table->integer('autor')->unsigned();
             $table->foreign('autor')->references('id')
-                ->on('autores')->onDelete('cascade');
+                ->on('autores')
+                ->onDelete('cascade')
+                ->onUpdate('cascade');
             $table->primary(['livro', 'autor']);
             $table->tinyInteger('ordem');
         });

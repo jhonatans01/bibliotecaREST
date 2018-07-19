@@ -22,12 +22,14 @@ class CreateEmprestimosTable extends Migration
             $table->foreign('usuario')
                 ->references('usuario')
                 ->on('perfis')
-                ->onDelete('cascade');
+                ->onDelete('cascade')
+                ->onUpdate('cascade');
             $table->string('livro', 15);
             $table->foreign('livro')
                 ->references('cod')
                 ->on('livros')
-                ->onDelete('cascade');
+                ->onDelete('cascade')
+                ->onUpdate('cascade');
             $table->softDeletes();
         });
     }

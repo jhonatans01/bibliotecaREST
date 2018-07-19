@@ -16,11 +16,15 @@ class CreateGenerosLivrosTable extends Migration
         Schema::create('generos_livros', function (Blueprint $table) {
             $table->string('livro', 15);
             $table->foreign('livro')->references('cod')
-                ->on('livros')->onDelete('cascade');
+                ->on('livros')
+                ->onDelete('cascade')
+                ->onUpdate('cascade');
 
             $table->integer('genero')->unsigned();
             $table->foreign('genero')->references('id')
-                ->on('generos')->onDelete('cascade');
+                ->on('generos')
+                ->onDelete('cascade')
+                ->onUpdate('cascade');
             $table->primary(['livro', 'genero']);
         });
     }

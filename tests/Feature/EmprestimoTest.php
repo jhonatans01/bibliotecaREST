@@ -2,21 +2,21 @@
 
 namespace Tests\Feature;
 
-use App\Autor;
+use App\Emprestimo;
 use Tests\TestCase;
 use Illuminate\Foundation\Testing\WithFaker;
 use Illuminate\Foundation\Testing\RefreshDatabase;
 
-class AutorTest extends TestCase
+class EmprestimoTest extends TestCase
 {
     /**
      * A basic test example.
      *
      * @return void
      */
-    public function testGet()
+    public function testGetAll()
     {
-        $response = $this->get('/api/autores');
+        $response = $this->get('/api/emprestimos');
 
         $response->assertSuccessful();
     }
@@ -25,7 +25,7 @@ class AutorTest extends TestCase
     {
         $response = $this->withHeaders([
             'X-Header' => 'Value',
-        ])->json('POST', '/api/autores', ['id' => '8', 'nome' => 'Raul Wazlawick']);
+        ])->json('POST', '/api/emprestimos', ['id' => '4', 'usuario' => '20180102', 'livro' => 'A2.2']);
 
         $response
             ->assertSuccessful();
@@ -33,28 +33,36 @@ class AutorTest extends TestCase
 
     public function testGetSingle()
     {
-        $response = $this->get('/api/autores/8');
+        $response = $this->get('/api/emprestimos/4');
 
         $response->assertSuccessful();
     }
 
     public function testPut()
     {
-        $data = Autor::where('nome', 'Raul Wazlawick')->orderBy('id', 'desc')->first();
-        $data['nome'] = 'Donald Knuth';
+        $data = Emprestimo::where([
+            ['livro', 'A2.2'],
+            ['usuario', '20180102']
+        ])->orderBy('dataEmprestimo', 'desc')->first();
+
+        $data['livro'] = 'A4';
         $response = $this->withHeaders([
             'X-Header' => 'Value',
-        ])->json('PUT', '/api/autores/edit/' . $data->id, $data->toArray());
+        ])->json('PUT', '/api/emprestimos/edit/' . $data->id, $data->toArray());
 
         $response->assertSuccessful();
     }
 
     public function testDelete()
     {
-        $data = Autor::where('nome', 'Donald Knuth')->orderBy('id', 'desc')->first();
+        $data = Emprestimo::where([
+            ['livro', 'A4'],
+            ['usuario', '20180102']
+        ])->orderBy('dataEmprestimo', 'desc')->first();
+
         $response = $this->withHeaders([
             'X-Header' => 'Value',
-        ])->json('DELETE', '/api/autores/delete/' . $data->id, $data->toArray());
+        ])->json('DELETE', '/api/emprestimos/delete/' . $data->id, $data->toArray());
 
         $response
             ->assertSuccessful();

@@ -21,7 +21,8 @@ class CreatePerfisTable extends Migration
             $table->foreign('usuario')
                 ->references('matricula')
                 ->on('usuarios')
-                ->onDelete('cascade');
+                ->onDelete('cascade')
+                ->onUpdate('cascade');
             $table->primary('usuario');
             $table->softDeletes();
         });
