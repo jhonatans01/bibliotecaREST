@@ -1,5 +1,3 @@
-<p align="center"><img src="https://laravel.com/assets/img/components/logo-laravel.svg"></p>
-
 <p align="center">
 <a href="https://travis-ci.org/jhonatans01/bibliotecaREST"><img src="https://travis-ci.org/jhonatans01/bibliotecaREST.svg" alt="Build Status"></a>
 </p>
@@ -14,7 +12,7 @@ Nela, um aluno cadastrado pode emprestar até 3 livros de uma vez, tendo um praz
 Para executar o projeto, basta inserir os arquivos do projeto em um servidor apache (local ou online). Os mais conhecidos são: XAMPP (Windows), LAMP (Linux) e MAMP (macOS).
 
 O SGBD utilizado foi o MySQL. Pode ser alterado, porém não há garantia que o gatilho incluso no código irá funcionar, pois foi desenvolvido no MySQL. Antes de rodar o script do banco, deve-se criar um banco de dados chamado 'biblioteca'. Foi utilizado como
-o usuário <i>root</i> e sem senha, porém isso pode ser alterado pelo arquivo <u>.env</u>, presente na pasta raiz do projeto.
+o usuário *root* e sem senha, porém isso pode ser alterado pelo arquivo <u>.env</u>, presente na pasta raiz do projeto.
 
 Após criar o banco no SGBD, deve-se criar e popular as tabelas a partir do seguinte código:
 ```

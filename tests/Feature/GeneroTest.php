@@ -18,7 +18,7 @@ class GeneroTest extends TestCase
     {
         $response = $this->get('/api/generos');
 
-        $response->assertViewIs('genero');
+        $response->assertSuccessful();
     }
 
     public function testPost()
