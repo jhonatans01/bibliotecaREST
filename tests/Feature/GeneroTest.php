@@ -14,12 +14,12 @@ class GeneroTest extends TestCase
      *
      * @return void
      */
-    /*public function testGet()
+    public function testGet()
     {
         $response = $this->get('/api/generos');
 
         $response->assertViewIs('genero');
-    }*/
+    }
 
     public function testPost()
     {
