@@ -1,0 +1,7 @@
+[
+    {
+        "model-name": "Idioma",
+        "resource-file": "idiomas.json",
+        "table-name": "idiomas"
+    }
+]

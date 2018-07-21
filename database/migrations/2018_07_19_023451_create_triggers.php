@@ -41,6 +41,6 @@ class CreateTriggers extends Migration
      */
     public function down()
     {
-        DB::unprepared('DROP TRIGGER `inserirEmprestimo`');
+        DB::unprepared('DROP TRIGGER IF EXISTS `inserirEmprestimo`');
     }
 }

@@ -20,13 +20,14 @@ class Livro extends Model
         return $this->belongsToMany('App\Genero', 'generos_livros', 'livro', 'genero');
     }
 
-    public function idioma()
+    public function idiomas()
     {
-        return $this->hasOne('App\Idioma', 'idioma');
+        return $this->hasOne('App\Idioma', 'id', 'idioma');
     }
 
     public function autores()
     {
-        return $this->belongsToMany('App\Autor', 'autores_livros')->withPivot('ordem');
+        return $this->belongsToMany('App\Autor', 'autores_livros', 'livro', 'autor')
+            ->withPivot('ordem');
     }
 }

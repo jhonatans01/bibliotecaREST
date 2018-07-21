@@ -6,6 +6,10 @@ use Illuminate\Database\Eloquent\Model;
 
 class Perfil extends Model
 {
+    protected $primaryKey = 'usuario';
+
+    public $incrementing = false;
+
     protected $table = 'perfis';
 
     protected $fillable = ['nome', 'cpf', 'ativo', 'usuario'];

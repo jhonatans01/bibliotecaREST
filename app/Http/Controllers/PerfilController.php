@@ -29,12 +29,4 @@ class PerfilController extends Controller
 
         return $article;
     }
-
-    public function delete(Request $request, $id)
-    {
-        $article = Perfil::findOrFail($id);
-        $article->delete();
-
-        return 204;
-    }
 }

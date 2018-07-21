@@ -2,9 +2,8 @@
 
 namespace Tests\Feature;
 
+use App\Perfil;
 use Tests\TestCase;
-use Illuminate\Foundation\Testing\WithFaker;
-use Illuminate\Foundation\Testing\RefreshDatabase;
 use App\Usuario;
 
 class UsuarioTest extends TestCase
@@ -32,6 +31,17 @@ class UsuarioTest extends TestCase
             ->assertSuccessful();
     }
 
+    public function testPerfilPost()
+    {
+        $data = ['nome' => 'Pefil3', 'cpf' => '00000000001', 'usuario' => '20180103'];
+        $response = $this->withHeaders([
+            'X-Header' => 'Value',
+        ])->json('POST', '/api/perfis', $data);
+
+        $response
+            ->assertSuccessful();
+    }
+
     public function testGetSingle()
     {
         $response = $this->get('/api/usuarios/20180103');
@@ -39,9 +49,21 @@ class UsuarioTest extends TestCase
         $response->assertSuccessful();
     }
 
+    public function testPerfilPut()
+    {
+        $data = Perfil::find('20180103');
+        $data->nome = 'P3';
+        $response = $this->withHeaders([
+            'X-Header' => 'Value',
+        ])->json('PUT', '/api/perfis/edit/' . $data->usuario, $data->toArray());
+
+        $response
+            ->assertSuccessful();
+    }
+
     public function testPut()
     {
-        $data = Usuario::where('matricula', '20180103')->first();
+        $data = Usuario::find('20180103');
         $data['email'] = 'u4@email.com';
         $data['senha'] = bcrypt('234');
         $response = $this->withHeaders([
@@ -53,7 +75,7 @@ class UsuarioTest extends TestCase
 
     public function testDelete()
     {
-        $data = Usuario::where('matricula', '20180103')->first();
+        $data = Usuario::find('20180103');
         $response = $this->withHeaders([
             'X-Header' => 'Value',
         ])->json('DELETE', '/api/usuarios/delete/' . $data->matricula, $data->toArray());
