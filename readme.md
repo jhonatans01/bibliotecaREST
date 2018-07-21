@@ -85,6 +85,7 @@ ou
 }
 [inserir/editar/deletar]
 ```
+- 'idioma' é o 'id' do idioma;
 - 'cod' e 'codgeral' são as chaves primárias, do tipo string (pode ser o mesmo código para os dois campos);
 - um livro tem 1:N gêneros, e tem 1:N autores;
 - 'ordem' é a ordem (integer) que os autores devem aparecer (1º autor, 2º autor, etc).
