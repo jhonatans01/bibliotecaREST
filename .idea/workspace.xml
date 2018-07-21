@@ -2,28 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="56bc8cdd-243a-4afb-a625-0f115a93512e" name="Default" comment="">
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/Autor.php" afterPath="$PROJECT_DIR$/app/Models/Autor.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/Emprestimo.php" afterPath="$PROJECT_DIR$/app/Models/Emprestimo.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/Genero.php" afterPath="$PROJECT_DIR$/app/Models/Genero.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/Idioma.php" afterPath="$PROJECT_DIR$/app/Models/Idioma.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/Livro.php" afterPath="$PROJECT_DIR$/app/Models/Livro.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/Perfil.php" afterPath="$PROJECT_DIR$/app/Models/Perfil.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/Usuario.php" afterPath="$PROJECT_DIR$/app/Models/Usuario.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/LivroController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/LivroController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/PerfilController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/PerfilController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/database/migrations/2018_07_19_023451_create_triggers.php" afterPath="$PROJECT_DIR$/database/migrations/2018_07_19_023451_create_triggers.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/readme.md" afterPath="$PROJECT_DIR$/readme.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes/api.php" afterPath="$PROJECT_DIR$/routes/api.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/Feature/AutorTest.php" afterPath="$PROJECT_DIR$/tests/Feature/AutorTest.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/Feature/EmprestimoTest.php" afterPath="$PROJECT_DIR$/tests/Feature/EmprestimoTest.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/Feature/GeneroTest.php" afterPath="$PROJECT_DIR$/tests/Feature/GeneroTest.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/Feature/IdiomaTest.php" afterPath="$PROJECT_DIR$/tests/Feature/IdiomaTest.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/Feature/LivroTest.php" afterPath="$PROJECT_DIR$/tests/Feature/LivroTest.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/Feature/UsuarioTest.php" afterPath="$PROJECT_DIR$/tests/Feature/UsuarioTest.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/travis/clover.xml" afterPath="$PROJECT_DIR$/travis/clover.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/composer/autoload_classmap.php" afterPath="$PROJECT_DIR$/vendor/composer/autoload_classmap.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/composer/autoload_static.php" afterPath="$PROJECT_DIR$/vendor/composer/autoload_static.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -92,6 +71,7 @@
       <find>&lt;i</find>
       <find>print</find>
       <find>gatilho</find>
+      <find>code-</find>
     </findStrings>
     <replaceStrings>
       <replace>Emprestimo</replace>
@@ -206,29 +186,7 @@
             <path>
               <item name="htdocs" type="b2602c69:ProjectViewProjectNode" />
               <item name="htdocs" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="database" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="htdocs" type="b2602c69:ProjectViewProjectNode" />
-              <item name="htdocs" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="database" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="migrations" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="htdocs" type="b2602c69:ProjectViewProjectNode" />
-              <item name="htdocs" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="routes" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="htdocs" type="b2602c69:ProjectViewProjectNode" />
-              <item name="htdocs" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="tests" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="htdocs" type="b2602c69:ProjectViewProjectNode" />
-              <item name="htdocs" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="tests" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Feature" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
           </expand>
           <select />
@@ -326,7 +284,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="120694000" />
+    <option name="totallyTimeSpent" value="120750000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -433,13 +391,6 @@
     <entry file="file://$PROJECT_DIR$/resources/views/generos/editar.blade.php" />
     <entry file="file://$PROJECT_DIR$/resources/views/generos/listagem.blade.php" />
     <entry file="file://$PROJECT_DIR$/resources/views/genero.blade.php" />
-    <entry file="file://$PROJECT_DIR$/composer.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="32" lean-forward="true" selection-start-line="12" selection-start-column="32" selection-end-line="12" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/composer.lock">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="433">
@@ -816,6 +767,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="7" column="1" lean-forward="true" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/composer.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="205">
+          <caret line="18" column="22" lean-forward="false" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
           <folding />
         </state>
       </provider>

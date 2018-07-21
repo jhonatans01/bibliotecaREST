@@ -3863,6 +3863,7 @@ class ComposerStaticInita47970a0105f93861c0d00c12d9786c8
         'Tests\\Feature\\GeneroTest' => __DIR__ . '/../..' . '/tests/Feature/GeneroTest.php',
         'Tests\\Feature\\IdiomaTest' => __DIR__ . '/../..' . '/tests/Feature/IdiomaTest.php',
         'Tests\\Feature\\LivroTest' => __DIR__ . '/../..' . '/tests/Feature/LivroTest.php',
+        'Tests\\Feature\\PerfilTest' => __DIR__ . '/../..' . '/tests/Feature/PerfilTest.php',
         'Tests\\Feature\\UsuarioTest' => __DIR__ . '/../..' . '/tests/Feature/UsuarioTest.php',
         'Tests\\TestCase' => __DIR__ . '/../..' . '/tests/TestCase.php',
         'Text_Template' => __DIR__ . '/..' . '/phpunit/php-text-template/src/Template.php',

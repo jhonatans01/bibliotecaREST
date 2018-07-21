@@ -3499,6 +3499,7 @@ return array(
     'Tests\\Feature\\GeneroTest' => $baseDir . '/tests/Feature/GeneroTest.php',
     'Tests\\Feature\\IdiomaTest' => $baseDir . '/tests/Feature/IdiomaTest.php',
     'Tests\\Feature\\LivroTest' => $baseDir . '/tests/Feature/LivroTest.php',
+    'Tests\\Feature\\PerfilTest' => $baseDir . '/tests/Feature/PerfilTest.php',
     'Tests\\Feature\\UsuarioTest' => $baseDir . '/tests/Feature/UsuarioTest.php',
     'Tests\\TestCase' => $baseDir . '/tests/TestCase.php',
     'Text_Template' => $vendorDir . '/phpunit/php-text-template/src/Template.php',
