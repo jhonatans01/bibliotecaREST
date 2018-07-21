@@ -20,7 +20,6 @@ class LivroController extends Controller
     public function store(Request $request)
     {
         $article = Livro::create($request->all());
-        $livro = Livro::find($article->cod);
 
         $generosId = [];
 
@@ -30,10 +29,10 @@ class LivroController extends Controller
 
 
         foreach ($request->autores as $key => $value){
-            $livro->autores()->attach($value['id'], ['ordem' => $value['ordem']]);
+            $article->autores()->attach($value['id'], ['ordem' => $value['ordem']]);
         };
 
-        $article = $livro->generos()->sync($generosId);
+        $article->generos()->sync($generosId);
 
         return $article;
     }

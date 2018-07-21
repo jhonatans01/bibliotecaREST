@@ -1,5 +1,5 @@
 <p align="center">
-<a href="https://travis-ci.org/jhonatans01/bibliotecaREST"><img src="https://travis-ci.org/jhonatans01/bibliotecaREST.svg" alt="Build Status"></a>
+<a target="_blank" href="https://travis-ci.org/jhonatans01/bibliotecaREST"><img src="https://travis-ci.org/jhonatans01/bibliotecaREST.svg" alt="Build Status"></a>
 </p>
 
 # Biblioteca REST
@@ -26,10 +26,9 @@ php artisan migrate:refresh --seed
 
 Todas as rotas estão disponíveis em  `routes/api.php`, além de poderem ser vistas nos testes.
 
-Para cada uma das 7 entidades:
+Para cada uma das entidades:
 
 - usuarios
-- perfis
 - idiomas
 - generos
 - autores
@@ -45,22 +44,24 @@ POST /api/nome_da_entidade/
 PUT /api/nome_da_entidade/edit/id
 DELETE /api/nome_da_entidade/delete/id
 ```
-
+Atenção:
+> Copiar também, para a pasta do servidor, o arquivo `.htaccess` presente na pasta raiz do projeto. Caso contrário, deve ser adicionado, no início das rotas, a pasta 'public', ficando da seguinte forma: `public/api/nome_da_entidade`
+ 
 ## Estrutura das Requisições
 
-#### Usuario
+#### Usuario/ Perfil
 ```
-{'matricula': '', 'email': '', 'senha': ''} [inserir/editar/deletar]
+{
+'matricula': '', 'email': '', 'senha': '',
+'perfil': {'nome': '', 'cpf': ''}
+}
+[inserir/editar/deletar]
 ```
 - 'matrícula' é do tipo string
-
-#### Perfil
-```
-{'nome': '', 'cpf': '', 'usuario': ''} [inserir/editar]
-```
-- 'usuario' é a matrícula;
 - Cpf sem pontos ou espaços;
-- Perfil não tem função excluir. Ele é excluído automaticamente quando se exclui o usuário, ou pode ser apenas desativado adicionando o campo `'situação': 'inativo'` na requisição. 
+- O perfil pode ser desativado adicionando o campo `'situação': 'inativo'` na requisição, na área do perfil, ou é deletado automaticamente caso o usuário seja deletado;
+- Na edição do usuário, o campo de perfil pode ser omitido (caso não haja nada a ser alterado no perfil);
+- O mesmo vale para o usuário: caso queia alterar apenas os campos de perfil, pode se mater apenas os campo matrícula e perfil  (matrícula é chave estrangeira/ chave primária do perfil)
 
 
 #### Idioma e Genero
@@ -69,6 +70,7 @@ DELETE /api/nome_da_entidade/delete/id
 ou
 {'id': '', 'titulo': ''} [editar/deletar]
 ```
+> Idioma e Gênero são requisições separadas, mas ambas têm os mesmos campos
 #### Autor
 ```
 {'nome': ''} [inserir]
@@ -81,7 +83,7 @@ ou
 {
 'cod': '',  'codgeral': '', 'titulo': '', 'paginas': '', 'edicao': '', 'ano': '', 'idioma': '',
 'generos': [{'id': '', 'nome': ''}, {'id': '', 'nome': ''}, ...],
-'autores': [{'id': '', 'nome': '', 'ordem: ''}, ... ]}
+'autores': [{'id': '', 'nome': '', 'ordem: ''}, ... ]
 }
 [inserir/editar/deletar]
 ```

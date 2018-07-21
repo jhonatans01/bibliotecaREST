@@ -49,8 +49,6 @@ Route::delete('/usuarios/delete/{id}', 'UsuarioController@delete');
 
 Route::get('/perfis', 'PerfilController@index');
 Route::get('/perfis/{id}', 'PerfilController@show');
-Route::post('/perfis', 'PerfilController@store');
-Route::put('/perfis/edit/{id}', 'PerfilController@update');
 
 Route::get('/emprestimos', 'EmprestimoController@index');
 Route::get('/emprestimos/{id}', 'EmprestimoController@show');

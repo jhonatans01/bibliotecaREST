@@ -22,21 +22,12 @@ class UsuarioTest extends TestCase
 
     public function testPost()
     {
-        $data = ['matricula' => '20180103', 'email' => 'u3@email.com', 'senha' => bcrypt('321')];
+        $data = new Usuario(['matricula' => '20180103', 'email' => 'u3@email.com', 'senha' => '321']);
+        $perfil = ['nome' => 'nome1', 'cpf' => '09000000000'];
+        $data->perfil = $perfil;
         $response = $this->withHeaders([
             'X-Header' => 'Value',
-        ])->json('POST', '/api/usuarios', $data);
-
-        $response
-            ->assertSuccessful();
-    }
-
-    public function testPerfilPost()
-    {
-        $data = ['nome' => 'Pefil3', 'cpf' => '00000000001', 'usuario' => '20180103'];
-        $response = $this->withHeaders([
-            'X-Header' => 'Value',
-        ])->json('POST', '/api/perfis', $data);
+        ])->json('POST', '/api/usuarios', $data->toArray());
 
         $response
             ->assertSuccessful();
@@ -49,23 +40,15 @@ class UsuarioTest extends TestCase
         $response->assertSuccessful();
     }
 
-    public function testPerfilPut()
-    {
-        $data = Perfil::find('20180103');
-        $data->nome = 'P3';
-        $response = $this->withHeaders([
-            'X-Header' => 'Value',
-        ])->json('PUT', '/api/perfis/edit/' . $data->usuario, $data->toArray());
-
-        $response
-            ->assertSuccessful();
-    }
-
     public function testPut()
     {
         $data = Usuario::find('20180103');
         $data['email'] = 'u4@email.com';
         $data['senha'] = bcrypt('234');
+
+        $perfil = ['nome' => 'nome2', 'cpf' => '09000000009'];
+        $data->perfil = $perfil;
+
         $response = $this->withHeaders([
             'X-Header' => 'Value',
         ])->json('PUT', '/api/usuarios/edit/' . $data->matricula, $data->toArray());

@@ -15,12 +15,10 @@ class Usuario extends Authenticatable
 
     protected $fillable = ['matricula', 'email', 'senha'];
 
-    protected $hidden = ['senha'];
-
     public $timestamps = false;
 
     public function perfil()
     {
-        return $this->hasOne('App\Perfil');
+        return $this->hasOne('App\Perfil', 'usuario');
     }
 }

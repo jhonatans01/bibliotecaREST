@@ -2,7 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="56bc8cdd-243a-4afb-a625-0f115a93512e" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Http/Controllers/LoginController.php" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/LivroController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/LivroController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/PerfilController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/PerfilController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/UsuarioController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/UsuarioController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Models/Perfil.php" afterPath="$PROJECT_DIR$/app/Models/Perfil.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Models/Usuario.php" afterPath="$PROJECT_DIR$/app/Models/Usuario.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/readme.md" afterPath="$PROJECT_DIR$/readme.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes/api.php" afterPath="$PROJECT_DIR$/routes/api.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/Feature/UsuarioTest.php" afterPath="$PROJECT_DIR$/tests/Feature/UsuarioTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/travis/clover.xml" afterPath="$PROJECT_DIR$/travis/clover.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -31,8 +41,8 @@
         <entry file="file://$PROJECT_DIR$/readme.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="436">
-                <caret line="89" column="0" lean-forward="false" selection-start-line="89" selection-start-column="0" selection-end-line="89" selection-end-column="0" />
+              <first_editor relative-caret-position="306">
+                <caret line="120" column="3" lean-forward="true" selection-start-line="120" selection-start-column="3" selection-end-line="120" selection-end-column="3" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -44,8 +54,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>'</find>
-      <find>envir</find>
       <find>Autor</find>
       <find>Emprestimo</find>
       <find>unit</find>
@@ -72,6 +80,10 @@
       <find>print</find>
       <find>gatilho</find>
       <find>code-</find>
+      <find>execuç</find>
+      <find>public</find>
+      <find>]}</find>
+      <find>perf</find>
     </findStrings>
     <replaceStrings>
       <replace>Emprestimo</replace>
@@ -88,8 +100,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/travis/coverageChecker.php" />
-        <option value="$PROJECT_DIR$/phpunit.xml" />
         <option value="$PROJECT_DIR$/database/.gitignore" />
         <option value="$PROJECT_DIR$/app/Emprestimo.php" />
         <option value="$PROJECT_DIR$/database/migrations/2018_07_18_044349_create_perfis_table.php" />
@@ -120,24 +130,26 @@
         <option value="$PROJECT_DIR$/composer.lock" />
         <option value="$PROJECT_DIR$/database/migrations/2018_07_20_013841_create_database.php" />
         <option value="$PROJECT_DIR$/database/DatabaseCreateCommand.php" />
-        <option value="$PROJECT_DIR$/app/Models/Perfil.php" />
-        <option value="$PROJECT_DIR$/routes/api.php" />
         <option value="$PROJECT_DIR$/database/migrations/2018_07_19_021614_create_autores_livros_table.php" />
         <option value="$PROJECT_DIR$/app/Models/Autor.php" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/PerfilController.php" />
-        <option value="$PROJECT_DIR$/tests/Feature/UsuarioTest.php" />
         <option value="$PROJECT_DIR$/tests/Feature/AutorTest.php" />
         <option value="$PROJECT_DIR$/tests/Feature/EmprestimoTest.php" />
         <option value="$PROJECT_DIR$/tests/Feature/GeneroTest.php" />
         <option value="$PROJECT_DIR$/tests/Feature/IdiomaTest.php" />
         <option value="$PROJECT_DIR$/tests/Feature/PerfilTest.php" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/UsuarioController.php" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/LivroController.php" />
         <option value="$PROJECT_DIR$/app/Models/Livro.php" />
         <option value="$PROJECT_DIR$/database/seeds/EmprestimosTableSeeder.php" />
         <option value="$PROJECT_DIR$/database/seeds/LivrosTableSeeder.php" />
         <option value="$PROJECT_DIR$/tests/Feature/LivroTest.php" />
         <option value="$PROJECT_DIR$/database/migrations/2018_07_19_023451_create_triggers.php" />
+        <option value="$PROJECT_DIR$/.htaccess" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/LivroController.php" />
+        <option value="$PROJECT_DIR$/app/Models/Perfil.php" />
+        <option value="$PROJECT_DIR$/app/Models/Usuario.php" />
+        <option value="$PROJECT_DIR$/routes/api.php" />
+        <option value="$PROJECT_DIR$/tests/Feature/UsuarioTest.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/UsuarioController.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/PerfilController.php" />
         <option value="$PROJECT_DIR$/readme.md" />
       </list>
     </option>
@@ -149,7 +161,7 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" interpreter_name="PHP 7.1" />
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds">
     <option name="y" value="36" />
     <option name="width" value="1274" />
     <option name="height" value="719" />
@@ -170,7 +182,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -186,12 +197,26 @@
             <path>
               <item name="htdocs" type="b2602c69:ProjectViewProjectNode" />
               <item name="htdocs" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Http" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="htdocs" type="b2602c69:ProjectViewProjectNode" />
+              <item name="htdocs" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Http" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Controllers" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="htdocs" type="b2602c69:ProjectViewProjectNode" />
+              <item name="htdocs" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="routes" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="Scratches" />
     </panes>
   </component>
@@ -199,7 +224,8 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="php.override.implement.member.chooser.php.doc" value="NONE" />
-    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///Applications/XAMPP/htdocs/app/Models/Emprestimo.php&#10;empres&#9;null&#9;null&#10;livro&#9;FILE&#9;file:///Applications/XAMPP/htdocs/app/Http/Controllers/LivroController.php&#10;livroc&#9;FILE&#9;file:///Applications/XAMPP/htdocs/app/Http/Controllers/LivroController.php&#10;livrtes&#9;FILE&#9;file:///Applications/XAMPP/htdocs/tests/Feature/LivroTest.php&#10;emprestimo&#9;FILE&#9;file:///Applications/XAMPP/htdocs/tests/Feature/EmprestimoTest.php&#10;usuar&#9;null&#9;null&#10;usuario&#9;FILE&#9;file:///Applications/XAMPP/htdocs/app/Models/Usuario.php&#10;usuari&#9;FILE&#9;file:///Applications/XAMPP/htdocs/tests/Feature/UsuarioTest.php&#10;perfilte&#9;FILE&#9;file:///Applications/XAMPP/htdocs/tests/Feature/PerfilTest.php&#10;readme.&#9;FILE&#9;file:///Applications/XAMPP/htdocs/readme.md&#10;perfilcon&#9;FILE&#9;file:///Applications/XAMPP/htdocs/app/Http/Controllers/PerfilController.php&#10;perfil&#9;FILE&#9;file:///Applications/XAMPP/htdocs/app/Models/Perfil.php&#10;autores_li&#9;FILE&#9;file:///Applications/XAMPP/htdocs/database/migrations/2018_07_19_021614_create_autores_livros_table.php&#10;livros_t&#9;FILE&#9;file:///Applications/XAMPP/htdocs/database/migrations/2018_07_19_021511_create_livros_table.php&#10;autor&#9;FILE&#9;file:///Applications/XAMPP/htdocs/app/Models/Autor.php&#10;genero&#9;FILE&#9;file:///Applications/XAMPP/htdocs/app/Models/Genero.php&#10;autores_l&#9;FILE&#9;file:///Applications/XAMPP/htdocs/database/migrations/2018_07_19_021614_create_autores_livros_table.php&#10;autorte&#9;FILE&#9;file:///Applications/XAMPP/htdocs/tests/Feature/AutorTest.php&#10;perfilc&#9;FILE&#9;file:///Applications/XAMPP/htdocs/app/Http/Controllers/PerfilController.php&#10;api&#9;FILE&#9;file:///Applications/XAMPP/htdocs/routes/api.php&#10;perfi&#9;FILE&#9;file:///Applications/XAMPP/htdocs/app/Models/Perfil.php&#10;perfis_&#9;FILE&#9;file:///Applications/XAMPP/htdocs/database/migrations/2018_07_18_044349_create_perfis_table.php&#10;api.&#9;FILE&#9;file:///Applications/XAMPP/htdocs/routes/api.php&#10;perf&#9;FILE&#9;file:///Applications/XAMPP/htdocs/app/Models/Perfil.php&#10;pr&#9;FILE&#9;file:///Applications/XAMPP/htdocs/vendor/symfony/console/Tests/Helper/ProgressBarTest.php&#10;generoc&#9;FILE&#9;file:///Applications/XAMPP/htdocs/app/Http/Controllers/GeneroController.php&#10;gener&#9;FILE&#9;file:///Applications/XAMPP/htdocs/app/Models/Genero.php&#10;geneo&#9;null&#9;null&#10;livros&#9;FILE&#9;file:///Applications/XAMPP/htdocs/database/migrations/2018_07_19_021602_create_generos_livros_table.php&#10;livrotes&#9;FILE&#9;file:///Applications/XAMPP/htdocs/tests/Feature/LivroTest.php&#10;web.&#9;FILE&#9;file:///Applications/XAMPP/htdocs/routes/web.php&#10;generot&#9;FILE&#9;file:///Applications/XAMPP/htdocs/tests/Feature/GeneroTest.php&#10;readme&#9;FILE&#9;file:///Applications/XAMPP/htdocs/vendor/fzaninotto/faker/readme.md&#10;travis&#9;FILE&#9;file:///Applications/XAMPP/htdocs/.travis.yml&#10;read&#9;FILE&#9;file:///Applications/XAMPP/htdocs/readme.md&#10;composer.&#9;FILE&#9;file:///Applications/XAMPP/htdocs/composer.json&#10;composer.json&#9;FILE&#9;file:///Applications/XAMPP/htdocs/composer.json&#10;bootstrap&#9;FILE&#9;file:///Applications/XAMPP/htdocs/vendor/laravel/framework/src/Illuminate/Pagination/resources/views/bootstrap-4.blade.php&#10;generote&#9;FILE&#9;file:///Applications/XAMPP/htdocs/tests/Feature/GeneroTest.php&#10;generoCo&#9;FILE&#9;file:///Applications/XAMPP/htdocs/app/Http/Controllers/GeneroController.php&#10;livrot&#9;FILE&#9;file:///Applications/XAMPP/htdocs/tests/Feature/LivroTest.php&#10;usuarioc&#9;FILE&#9;file:///Applications/XAMPP/htdocs/app/Http/Controllers/UsuarioController.php&#10;livr&#9;FILE&#9;file:///Applications/XAMPP/htdocs/app/Livro.php&#10;usua&#9;FILE&#9;file:///Applications/XAMPP/htdocs/app/Usuario.php&#10;livro_&#9;FILE&#9;file:///Applications/XAMPP/htdocs/database/migrations/2018_07_19_021614_create_autores_livros_table.php&#10;autores_livros&#9;FILE&#9;file:///Applications/XAMPP/htdocs/database/migrations/2018_07_19_021614_create_autores_livros_table.php&#10;Livro&#9;FILE&#9;file:///Applications/XAMPP/htdocs/app/Livro.php&#10;ap&#9;FILE&#9;file:///Applications/XAMPP/htdocs/routes/api.php&#10;perfilC&#9;null&#9;null" />
+    <property name="SearchEverywhereHistoryKey" value="test&#9;FILE&#9;file:///Applications/XAMPP/htdocs/tests/Feature/PerfilTest.php&#10;perfilcon&#9;FILE&#9;file:///Applications/XAMPP/htdocs/app/Http/Controllers/PerfilController.php&#10;perf&#9;null&#9;null&#10;livrot&#9;FILE&#9;file:///Applications/XAMPP/htdocs/tests/Feature/LivroTest.php&#10;api.&#9;FILE&#9;file:///Applications/XAMPP/htdocs/routes/api.php&#10;usuarioseed&#9;null&#9;null&#10;usuario&#9;FILE&#9;file:///Applications/XAMPP/htdocs/tests/Feature/UsuarioTest.php&#10;livroc&#9;FILE&#9;file:///Applications/XAMPP/htdocs/app/Http/Controllers/LivroController.php&#10;usuarioc&#9;FILE&#9;file:///Applications/XAMPP/htdocs/app/Http/Controllers/UsuarioController.php&#10;usu&#9;FILE&#9;file:///Applications/XAMPP/htdocs/app/Models/Usuario.php&#10;empres&#9;null&#9;null&#10;livro&#9;FILE&#9;file:///Applications/XAMPP/htdocs/app/Http/Controllers/LivroController.php&#10;livrtes&#9;FILE&#9;file:///Applications/XAMPP/htdocs/tests/Feature/LivroTest.php&#10;emprestimo&#9;FILE&#9;file:///Applications/XAMPP/htdocs/tests/Feature/EmprestimoTest.php&#10;usuar&#9;null&#9;null&#10;usuari&#9;FILE&#9;file:///Applications/XAMPP/htdocs/tests/Feature/UsuarioTest.php&#10;perfilte&#9;FILE&#9;file:///Applications/XAMPP/htdocs/tests/Feature/PerfilTest.php&#10;readme.&#9;FILE&#9;file:///Applications/XAMPP/htdocs/readme.md&#10;perfil&#9;FILE&#9;file:///Applications/XAMPP/htdocs/app/Models/Perfil.php&#10;autores_li&#9;FILE&#9;file:///Applications/XAMPP/htdocs/database/migrations/2018_07_19_021614_create_autores_livros_table.php&#10;livros_t&#9;FILE&#9;file:///Applications/XAMPP/htdocs/database/migrations/2018_07_19_021511_create_livros_table.php&#10;autor&#9;FILE&#9;file:///Applications/XAMPP/htdocs/app/Models/Autor.php&#10;genero&#9;FILE&#9;file:///Applications/XAMPP/htdocs/app/Models/Genero.php&#10;autores_l&#9;FILE&#9;file:///Applications/XAMPP/htdocs/database/migrations/2018_07_19_021614_create_autores_livros_table.php&#10;autorte&#9;FILE&#9;file:///Applications/XAMPP/htdocs/tests/Feature/AutorTest.php&#10;perfilc&#9;FILE&#9;file:///Applications/XAMPP/htdocs/app/Http/Controllers/PerfilController.php&#10;api&#9;FILE&#9;file:///Applications/XAMPP/htdocs/routes/api.php&#10;perfi&#9;FILE&#9;file:///Applications/XAMPP/htdocs/app/Models/Perfil.php&#10;perfis_&#9;FILE&#9;file:///Applications/XAMPP/htdocs/database/migrations/2018_07_18_044349_create_perfis_table.php&#10;pr&#9;FILE&#9;file:///Applications/XAMPP/htdocs/vendor/symfony/console/Tests/Helper/ProgressBarTest.php&#10;generoc&#9;FILE&#9;file:///Applications/XAMPP/htdocs/app/Http/Controllers/GeneroController.php&#10;gener&#9;FILE&#9;file:///Applications/XAMPP/htdocs/app/Models/Genero.php&#10;geneo&#9;null&#9;null&#10;livros&#9;FILE&#9;file:///Applications/XAMPP/htdocs/database/migrations/2018_07_19_021602_create_generos_livros_table.php&#10;livrotes&#9;FILE&#9;file:///Applications/XAMPP/htdocs/tests/Feature/LivroTest.php&#10;web.&#9;FILE&#9;file:///Applications/XAMPP/htdocs/routes/web.php&#10;generot&#9;FILE&#9;file:///Applications/XAMPP/htdocs/tests/Feature/GeneroTest.php&#10;readme&#9;FILE&#9;file:///Applications/XAMPP/htdocs/vendor/fzaninotto/faker/readme.md&#10;travis&#9;FILE&#9;file:///Applications/XAMPP/htdocs/.travis.yml&#10;read&#9;FILE&#9;file:///Applications/XAMPP/htdocs/readme.md&#10;composer.&#9;FILE&#9;file:///Applications/XAMPP/htdocs/composer.json&#10;composer.json&#9;FILE&#9;file:///Applications/XAMPP/htdocs/composer.json&#10;bootstrap&#9;FILE&#9;file:///Applications/XAMPP/htdocs/vendor/laravel/framework/src/Illuminate/Pagination/resources/views/bootstrap-4.blade.php&#10;generote&#9;FILE&#9;file:///Applications/XAMPP/htdocs/tests/Feature/GeneroTest.php&#10;generoCo&#9;FILE&#9;file:///Applications/XAMPP/htdocs/app/Http/Controllers/GeneroController.php&#10;livr&#9;FILE&#9;file:///Applications/XAMPP/htdocs/app/Livro.php&#10;usua&#9;FILE&#9;file:///Applications/XAMPP/htdocs/app/Usuario.php&#10;livro_&#9;FILE&#9;file:///Applications/XAMPP/htdocs/database/migrations/2018_07_19_021614_create_autores_livros_table.php&#10;autores_livros&#9;FILE&#9;file:///Applications/XAMPP/htdocs/database/migrations/2018_07_19_021614_create_autores_livros_table.php&#10;Livro&#9;FILE&#9;file:///Applications/XAMPP/htdocs/app/Livro.php" />
+    <property name="nodejs_interpreter_path" value="/usr/local/bin/node" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -280,11 +306,12 @@
       <workItem from="1531951249782" duration="16360000" />
       <workItem from="1532009572185" duration="23042000" />
       <workItem from="1532040950878" duration="11797000" />
+      <workItem from="1532189141965" duration="9252000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="120956000" />
+    <option name="totallyTimeSpent" value="130826000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -296,39 +323,28 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1280" height="732" extended-state="6" />
+    <frame x="0" y="36" width="1274" height="719" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25201938" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2573052" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32810047" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32967034" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3292683" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3279483" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32956383" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32967034" sideWeight="0.5" order="10" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980457" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32692307" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32852563" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32956383" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32956383" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.37575758" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32810047" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32967034" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="REST Client" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.38147566" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32956383" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32956383" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="REST Client" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.38147566" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25365853" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980457" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3279483" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.37575758" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -342,52 +358,7 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Pagination/resources/views/bootstrap-4.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/welcome.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/assets/js/bootstrap.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/css/app.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/app.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="147" column="51" lean-forward="false" selection-start-line="147" selection-start-column="51" selection-end-line="147" selection-end-column="51" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/app.blade.php" />
-    <entry file="file://$PROJECT_DIR$/resources/views/menu.blade.php" />
-    <entry file="file://$PROJECT_DIR$/resources/views/generos/create.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" column="23" lean-forward="false" selection-start-line="24" selection-start-column="23" selection-end-line="24" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/generos/create.blade.php" />
     <entry file="file://$PROJECT_DIR$/resources/views/generos/editar.blade.php" />
     <entry file="file://$PROJECT_DIR$/resources/views/generos/listagem.blade.php" />
     <entry file="file://$PROJECT_DIR$/resources/views/genero.blade.php" />
@@ -428,115 +399,14 @@
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="0">
             <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-            <folding>
-              <marker date="1531390995000" expanded="true" signature="2939:3146" ph="//..." />
-              <marker date="1531390995000" expanded="true" signature="3436:3464" ph="..." />
-              <marker date="1531390995000" expanded="true" signature="3468:3682" ph="//..." />
-              <marker date="1531390995000" expanded="true" signature="21031:21059" ph="..." />
-              <marker date="1531390995000" expanded="true" signature="21063:21280" ph="//..." />
-              <marker date="1531390995000" expanded="true" signature="23284:23375" ph="..." />
-              <marker date="1531390995000" expanded="true" signature="23301:23374" ph="..." />
-              <marker date="1531390995000" expanded="true" signature="23718:23783" ph="..." />
-              <marker date="1531390995000" expanded="true" signature="23735:23782" ph="..." />
-              <marker date="1531390995000" expanded="true" signature="23998:24119" ph="//..." />
-              <marker date="1531390995000" expanded="true" signature="24527:24596" ph="..." />
-              <marker date="1531390995000" expanded="true" signature="24553:24595" ph="..." />
-              <marker date="1531390995000" expanded="true" signature="27370:27602" ph="{...}" />
-              <marker date="1531390995000" expanded="true" signature="27410:27528" ph="{...}" />
-              <marker date="1531390995000" expanded="true" signature="27554:27600" ph="{...}" />
-              <marker date="1531390995000" expanded="true" signature="28263:28346" ph="..." />
-              <marker date="1531390995000" expanded="true" signature="28351:28385" ph="..." />
-              <marker date="1531390995000" expanded="true" signature="28404:29499" ph="..." />
-              <marker date="1531390995000" expanded="true" signature="28431:29491" ph="..." />
-              <marker date="1531390995000" expanded="true" signature="28462:28486" ph="..." />
-              <marker date="1531390995000" expanded="true" signature="28505:28528" ph="..." />
-              <marker date="1531390995000" expanded="true" signature="28544:28564" ph="..." />
-              <marker date="1531390995000" expanded="true" signature="28593:28619" ph="..." />
-              <marker date="1531390995000" expanded="true" signature="28630:28787" ph="..." />
-              <marker date="1531390995000" expanded="true" signature="28656:28780" ph="..." />
-              <marker date="1531390995000" expanded="true" signature="28682:28733" ph="..." />
-              <marker date="1531390995000" expanded="true" signature="28749:28768" ph="..." />
-              <marker date="1531390995000" expanded="true" signature="28823:28851" ph="..." />
-              <marker date="1531390995000" expanded="true" signature="28880:28899" ph="..." />
-              <marker date="1531390995000" expanded="true" signature="28930:28953" ph="..." />
-              <marker date="1531390995000" expanded="true" signature="28985:29005" ph="..." />
-              <marker date="1531390995000" expanded="true" signature="29055:29077" ph="..." />
-              <marker date="1531390995000" expanded="true" signature="29099:29125" ph="..." />
-              <marker date="1531390995000" expanded="true" signature="29135:29224" ph="..." />
-              <marker date="1531390995000" expanded="true" signature="29161:29217" ph="..." />
-              <marker date="1531390995000" expanded="true" signature="29183:29200" ph="..." />
-              <marker date="1531390995000" expanded="true" signature="29232:29328" ph="..." />
-              <marker date="1531390995000" expanded="true" signature="29258:29321" ph="..." />
-              <marker date="1531390995000" expanded="true" signature="29289:29308" ph="..." />
-              <marker date="1531390995000" expanded="true" signature="29351:29469" ph="..." />
-              <marker date="1531390995000" expanded="true" signature="29377:29462" ph="..." />
-              <marker date="1531390995000" expanded="true" signature="29410:29434" ph="..." />
-              <marker date="1531390995000" expanded="true" signature="29629:35621" ph="..." />
-              <marker date="1531390995000" expanded="true" signature="29713:30400" ph="..." />
-              <marker date="1531390995000" expanded="true" signature="29768:29917" ph="..." />
-              <marker date="1531390995000" expanded="true" signature="30007:30080" ph="..." />
-              <marker date="1531390995000" expanded="true" signature="30094:30387" ph="..." />
-              <marker date="1531390995000" expanded="true" signature="30479:30810" ph="..." />
-              <marker date="1531390995000" expanded="true" signature="30533:30697" ph="..." />
-              <marker date="1531390995000" expanded="true" signature="30782:30797" ph="..." />
-              <marker date="1531390995000" expanded="true" signature="30901:31224" ph="..." />
-              <marker date="1531390995000" expanded="true" signature="30950:31107" ph="..." />
-              <marker date="1531390995000" expanded="true" signature="31196:31211" ph="..." />
-              <marker date="1531390995000" expanded="true" signature="31307:32048" ph="..." />
-              <marker date="1531390995000" expanded="true" signature="31360:31508" ph="..." />
-              <marker date="1531390995000" expanded="true" signature="31601:31662" ph="..." />
-              <marker date="1531390995000" expanded="true" signature="31676:32035" ph="..." />
-              <marker date="1531390995000" expanded="true" signature="32147:32565" ph="..." />
-              <marker date="1531390995000" expanded="true" signature="32197:32366" ph="..." />
-              <marker date="1531390995000" expanded="true" signature="32452:32552" ph="..." />
-              <marker date="1531390995000" expanded="true" signature="32637:32968" ph="..." />
-              <marker date="1531390995000" expanded="true" signature="32692:32844" ph="..." />
-              <marker date="1531390995000" expanded="true" signature="32940:32955" ph="..." />
-              <marker date="1531390995000" expanded="true" signature="33048:33883" ph="..." />
-              <marker date="1531390995000" expanded="true" signature="33154:33328" ph="..." />
-              <marker date="1531390995000" expanded="true" signature="33404:33508" ph="..." />
-              <marker date="1531390995000" expanded="true" signature="33522:33870" ph="..." />
-              <marker date="1531390995000" expanded="true" signature="33976:34290" ph="..." />
-              <marker date="1531390995000" expanded="true" signature="34027:34183" ph="..." />
-              <marker date="1531390995000" expanded="true" signature="34262:34277" ph="..." />
-              <marker date="1531390995000" expanded="true" signature="34373:34740" ph="..." />
-              <marker date="1531390995000" expanded="true" signature="34423:34588" ph="..." />
-              <marker date="1531390995000" expanded="true" signature="34672:34727" ph="..." />
-              <marker date="1531390995000" expanded="true" signature="34822:35609" ph="..." />
-              <marker date="1531390995000" expanded="true" signature="34930:35096" ph="..." />
-              <marker date="1531390995000" expanded="true" signature="35191:35247" ph="..." />
-              <marker date="1531390995000" expanded="true" signature="35261:35596" ph="..." />
-              <marker date="1531390995000" expanded="true" signature="52509:52907" ph="//..." />
-            </folding>
           </first_editor>
           <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/layouts/app.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/generos/index.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/GenerosController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="130" column="33" lean-forward="false" selection-start-line="130" selection-start-column="33" selection-end-line="130" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/layouts/app.blade.php" />
+    <entry file="file://$PROJECT_DIR$/resources/views/generos/index.blade.php" />
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/GenerosController.php" />
     <entry file="file://$PROJECT_DIR$/routes/web.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -557,7 +427,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
           <caret line="874" column="23" lean-forward="false" selection-start-line="874" selection-start-column="23" selection-end-line="874" selection-end-column="23" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -601,39 +470,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/PerfilController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="30" column="5" lean-forward="false" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tests/Feature/GeneroTest.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-244">
           <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-          <folding>
-            <element signature="e#33#48#0#PHP" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/Feature/UsuarioTest.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-505">
-          <caret line="19" column="38" lean-forward="true" selection-start-line="19" selection-start-column="38" selection-end-line="19" selection-end-column="38" />
-          <folding>
-            <element signature="e#33#48#0#PHP" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/Feature/PerfilTest.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -641,9 +481,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-310">
           <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-          <folding>
-            <element signature="e#33#48#0#PHP" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -651,33 +488,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
           <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-          <folding>
-            <element signature="e#33#47#0#PHP" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/UsuarioController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="257">
-          <caret line="21" column="8" lean-forward="true" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Models/Usuario.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="23" column="35" lean-forward="false" selection-start-line="23" selection-start-column="35" selection-end-line="23" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Models/Perfil.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="6" lean-forward="false" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -689,19 +499,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/routes/api.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tests/Feature/EmprestimoTest.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="53">
           <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -709,14 +510,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
           <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/LivroController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="16" column="42" lean-forward="false" selection-start-line="16" selection-start-column="42" selection-end-line="16" selection-end-column="42" />
           <folding />
         </state>
       </provider>
@@ -734,16 +527,6 @@
         <state relative-caret-position="255">
           <caret line="19" column="43" lean-forward="false" selection-start-line="19" selection-start-column="43" selection-end-line="19" selection-end-column="43" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/Feature/LivroTest.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="217">
-          <caret line="31" column="70" lean-forward="false" selection-start-line="31" selection-start-column="70" selection-end-line="31" selection-end-column="70" />
-          <folding>
-            <element signature="e#33#47#0#PHP" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -775,6 +558,137 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="205">
           <caret line="18" column="22" lean-forward="false" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.htaccess">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="9" lean-forward="true" selection-start-line="1" selection-start-column="9" selection-end-line="1" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/LivroController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="229">
+          <caret line="31" column="12" lean-forward="false" selection-start-line="31" selection-start-column="12" selection-end-line="31" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Models/Usuario.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="21" column="52" lean-forward="false" selection-start-line="21" selection-start-column="52" selection-end-line="21" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/Feature/LivroTest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="217">
+          <caret line="31" column="70" lean-forward="false" selection-start-line="31" selection-start-column="70" selection-end-line="31" selection-end-column="70" />
+          <folding>
+            <element signature="e#33#47#0#PHP" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/Feature/UsuarioTest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="277">
+          <caret line="49" column="8" lean-forward="false" selection-start-line="49" selection-start-column="8" selection-end-line="49" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="326">
+          <caret line="202" column="13" lean-forward="false" selection-start-line="202" selection-start-column="13" selection-end-line="202" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/seeds/UsuariosTableSeeder.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="12" column="7" lean-forward="true" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/UsuarioController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="181">
+          <caret line="22" column="46" lean-forward="true" selection-start-line="22" selection-start-column="46" selection-end-line="22" selection-end-column="46" />
+          <folding>
+            <element signature="e#40#55#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/Feature/PerfilTest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/PerfilController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="17" column="5" lean-forward="false" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Models/Perfil.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="32" lean-forward="false" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/api.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="750">
+          <caret line="50" column="0" lean-forward="false" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/AutorController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Controller.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/LoginController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -782,8 +696,8 @@
     <entry file="file://$PROJECT_DIR$/readme.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="436">
-            <caret line="89" column="0" lean-forward="false" selection-start-line="89" selection-start-column="0" selection-end-line="89" selection-end-column="0" />
+          <first_editor relative-caret-position="306">
+            <caret line="120" column="3" lean-forward="true" selection-start-line="120" selection-start-column="3" selection-end-line="120" selection-end-column="3" />
             <folding />
           </first_editor>
           <second_editor />

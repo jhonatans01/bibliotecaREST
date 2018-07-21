@@ -18,7 +18,7 @@ class Perfil extends Model
 
     public function usuario()
     {
-        return $this->belongsTo('App\Usuario', 'usuario');
+        return $this->belongsTo('App\Usuario', 'usuario', 'matricula');
     }
 
     public function emprestimos()

@@ -16,17 +16,4 @@ class PerfilController extends Controller
     {
         return Perfil::find($id);
     }
-
-    public function store(Request $request)
-    {
-        return Perfil::create($request->all());
-    }
-
-    public function update(Request $request, $id)
-    {
-        $article = Perfil::findOrFail($id);
-        $article->update($request->all());
-
-        return $article;
-    }
 }

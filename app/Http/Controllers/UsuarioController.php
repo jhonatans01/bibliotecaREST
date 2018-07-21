@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Perfil;
 use Illuminate\Http\Request;
 use App\Usuario;
 
@@ -9,17 +10,23 @@ class UsuarioController extends Controller
 {
     public function index()
     {
-        return Usuario::all();
+        return Usuario::with(['perfil'])->get();
     }
 
     public function show($id)
     {
-        return Usuario::find($id);
+        return Usuario::with(['perfil'])->find($id);
     }
 
     public function store(Request $request)
     {
-        return Usuario::create($request->all());
+        $request->senha = bcrypt($request->senha);
+        $article = Usuario::create($request->all());
+
+        $data = new Perfil($request->perfil);
+        $article->perfil()->save($data);
+
+        return $article;
     }
 
     public function update(Request $request, $id)
@@ -27,6 +34,9 @@ class UsuarioController extends Controller
         $article = Usuario::findOrFail($id);
         $article->update($request->all());
 
+        if ($request->perfil != null){
+            $article->perfil()->update($request->perfil);
+        }
         return $article;
     }
 
